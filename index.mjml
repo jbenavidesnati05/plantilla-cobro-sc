@@ -68,13 +68,11 @@
                <mj-text >
                   <img  style="vertical-align: middle" src="assets/img/Whatsapp-completo.png" alt="Descripción de la imagen" width="170" height= "31" />
                 </mj-text>
-                <!-- Escríbenos al Whatsapp 320 889 9898  -->
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
                             <mj-text>
                   <img style="vertical-align: middle" src="assets/img/Linea telefonica.png" alt="Descripción de la imagen" width="170" height= "31" />
                 </mj-text>
-                Comunícate al (+57) 320 889 9898
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
                             <mj-text>
