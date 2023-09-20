@@ -31,7 +31,6 @@
               <td style="padding: 0 15px; background-color: #f3f3f3;">Solo en efectivo</td>
               <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
             </tr>
-            
             <tr>
               <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
               <img src="./assets/img/mobile-notch.png" style="vertical-align: middle;"> 
@@ -65,6 +64,7 @@
         </mj-column>
       </mj-section>
 
+
       <mj-section>
         <mj-column>
           <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
@@ -82,15 +82,14 @@
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                            <mj-text>
+                <mj-text>
                   <img style="vertical-align: middle" src="assets/img/Linea telefonica.png" alt="Descripción de la imagen" width="170" height= "31" />
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
                             <mj-text>
-                  <img style="vertical-align: middle" src="assets/img/mail.png" alt="Descripción de la imagen" width="30" />
+                  <img style="vertical-align: middle" src="assets/img/Linea telefonica-completo.png" alt="Descripción de la imagen" width="170"height="31" />
                 </mj-text>
-                info@sistecredito.com
               </th>
             </tr>
           </mj-table>
@@ -100,26 +99,56 @@
       <mj-section>
         <mj-column>
           <mj-table>
-            <tr style="text-align:" left"; padding:"25px";">
-              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+            <tr style="text-align:" left"; padding:"0px";">
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
+                <a href="https://www.facebook.com/sistecredito">
                   <img src="assets/img/Facebook.png" alt="Descripción de la imagen" width="30" />
+                </a>
                 </mj-text>
               </th>
-              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                  <img src="assets/img/instagram.png" alt="Descripción de la imagen" width="30" />
+                  <a href="https://www.instagram.com/sistecredito/?hl=es">
+                    <img src="assets/img/instagram.png" alt="Descripción de la imagen" width="30" />
+                  </a>
                 </mj-text>
               </th>
-              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
+                <a href="https://www.tiktok.com/discover/sistecredito?lang=es">
                   <img src="assets/img/tik-tok.png" alt="Descripción de la imagen" width="30" />
+                </a>
                 </mj-text>
               </th>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-table>
+            <tr style="text-align:" left"; padding:"0px";">
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                <a href="https://www.sistecredito.com/index.html">
+                  <img src="assets/img/www.sistecredito.com.png" alt="Descripción de la imagen" width="120" height="18" />
+                </a>
+                </mj-text>
+              </th>
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                  <a href="https://www.instagram.com/sistecredito/?hl=es">
+                    <img src="assets/img/descarga de app.png" alt="Descripción de la imagen" width="187" height= "18"/>
+                  </a>
+                </mj-text>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
     </mj-container>
   </mj-body>
 
