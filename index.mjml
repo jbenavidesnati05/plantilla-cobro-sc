@@ -25,22 +25,38 @@
               <th align="center" style="padding: 20px 0 0 15px; background-color: #00256c; color: #ffffff;">...</th>
             </tr>
             <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">Pago en almacén</td>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Frame 181.png" style="vertical-align: middle;"> 
+              Pago en almacén</td>
               <td style="padding: 0 15px; background-color: #f3f3f3;">Solo en efectivo</td>
               <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
             </tr>
             <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">App Sistecredito 					 personas</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">Botón Bancolombia</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">Débito PSE</td>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/mobile-notch.png" style="vertical-align: middle;"> 
+              App Sistecredito personas</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Logo_Bancolombia_Color.png" style="vertical-align: middle;"> 
+              Botón Bancolombia
+              </td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Logo_PSE_Color.png" style="vertical-align: middle;">Débito PSE</td>
             </tr>
             <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">Sitio web Sistecredito</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">Botón Bancolombia</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">Débito PSE</td>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/icon.png" style="vertical-align: middle;"> 
+              Sitio web Sistecredito</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Logo_Bancolombia_Color.png" style="vertical-align: middle;"> 
+              Botón Bancolombia
+              </td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Logo_PSE_Color.png" style="vertical-align: middle;">Débito PSE</td>
             </tr>
             <tr>
-              <td style="padding:10px 15px 10px 15px; background-color: #f3f3f3;">Otros medios de pago</td>
+              <td style="padding:10px 15px 10px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/otros.png" style="vertical-align: middle;"> 
+              Otros medios de pago</td>
               <td style="padding: 0 15px; background-color: #f3f3f3;">EFECTY</td>
               <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">GANA</td>
             </tr>
