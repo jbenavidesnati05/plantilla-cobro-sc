@@ -17,7 +17,6 @@
       </mj-section>
 
       <mj-section>
-      
         <mj-column>
           <mj-table>
             <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px;">
@@ -29,7 +28,7 @@
               <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
               <img src="./assets/img/Frame 181.png" style="vertical-align: middle;"> 
               Pago en almacén</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">Solo en efectivo</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">Solo pago en efectivo</td>
               <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
             </tr>
             <tr>
@@ -58,8 +57,11 @@
               <td style="padding:10px 15px 10px 15px; background-color: #f3f3f3;">
               <img src="./assets/img/otros.png" style="vertical-align: middle;"> 
               Otros medios de pago</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">EFECTY</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">GANA</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Frame 198.png" style="vertical-align: middle;"></td></td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Frame 199.png" style="vertical-align: middle;"></td>
+            </td>
             </tr>
           </mj-table>
         </mj-column>
