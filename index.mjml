@@ -72,7 +72,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section>
+      <!-- <mj-section>
         <mj-column>
           <mj-table>
             <tr style="text-align:" left"; padding:"15px";">
@@ -87,12 +87,35 @@
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                            <mj-text>
+              <mj-text>
                   <img style="vertical-align: middle" src="assets/img/Linea telefonica-completo.png" alt="Descripción de la imagen" width="170"height="31" />
                 </mj-text>
               </th>
             </tr>
           </mj-table>
+        </mj-column>
+      </mj-section> -->
+
+      <mj-section>
+        <!-- Primera columna centrada -->
+        <mj-column>
+          <mj-text align="center">
+            <img src="assets/img/Whatsapp-completo.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+          </mj-text>
+        </mj-column>
+        
+        <!-- Segunda columna centrada -->
+        <mj-column>
+          <mj-text align="center">
+            <img src="assets/img/Linea telefonica.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+          </mj-text>
+        </mj-column>
+        
+        <!-- Tercera columna centrada -->
+        <mj-column>
+          <mj-text align="center">
+            <img src="assets/img/Linea telefonica-completo.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+          </mj-text>
         </mj-column>
       </mj-section>
 
@@ -128,25 +151,20 @@
 
       <mj-section>
         <mj-column>
-          <mj-table>
-            <tr style="text-align:" left"; padding:"0px";">
-              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
-                <mj-text>
-                <a href="https://www.sistecredito.com/index.html">
-                  <img src="assets/img/www.sistecredito.com.png" alt="Descripción de la imagen" width="120" height="18" />
-                </a>
-                </mj-text>
-              </th>
-              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
-                <mj-text>
-                  <a href="https://www.instagram.com/sistecredito/?hl=es">
-                    <img src="assets/img/descarga de app.png" alt="Descripción de la imagen" width="187" height= "18"/>
-                  </a>
-                </mj-text>
-              </th>
-            </tr>
-          </mj-table>
+          <mj-text align="center">
+            <a href="https://www.sistecredito.com/index.html">
+              <img src="assets/img/www.sistecredito.com.png" alt="Descripción de la imagen" width="120" height="18" />
+            </a>
+          </mj-text>
         </mj-column>
+        <mj-column>
+          <mj-text align="center">
+            <a href="https://www.instagram.com/sistecredito/?hl=es">
+              <img src="assets/img/descarga de app.png" alt="Descripción de la imagen" width="187" height="18" />
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
       </mj-section>
 
       <mj-section>
