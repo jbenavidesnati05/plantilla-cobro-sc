@@ -161,9 +161,8 @@
         </mj-section>
        </mj-wrapper>
       <!-- --------------------Terminos y pqrs -------------- -->
-      <mj-wrapper padding="0% 15%">
         <mj-section>
-          <mj-column>
+          <mj-column width="50%">
             <mj-table>
               <tr style="text-align:" left"; padding:"0px";">
                 <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
@@ -205,10 +204,6 @@
             </mj-table>
           </mj-column>
         </mj-section>
-      </mj-wrapper>
-
-
-      
 
     </mj-container>
   </mj-body>
