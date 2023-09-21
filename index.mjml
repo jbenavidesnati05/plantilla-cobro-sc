@@ -1,11 +1,11 @@
-<mjml>
+<mjml font-family="Red Hat Display">
   <mj-head>
     <mj-attributes>
       <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
       <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
       <mj-section padding= "0px" background-color = "#FFFFFF" />
       <mj-image padding= "0px"/>
-      <mj-text font-family = "Red Hat Display"/>
+      <!-- <mj-text font-family = "Red Hat Display"/> -->
   </mj-attributes>
   </mj-head>
   <mj-body>
