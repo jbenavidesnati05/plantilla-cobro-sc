@@ -139,6 +139,7 @@
     </mj-container>
   </mj-body>
 
+
   <mj-attributes>
     <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
     <mj-class name="hello-text" font-size="13px" padding-left="30px"></mj-class>
