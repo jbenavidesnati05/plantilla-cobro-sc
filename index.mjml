@@ -1,72 +1,86 @@
 <mjml font-family="Red Hat Display">
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px">
-      <mj-section background-url="https://credinetprodstorage.blob.core.windows.net/images/templates/CABEZOTE_MAIL_NOTIFICACION_PREVIA_AL_REPORTE_EN_CENTRALES_03.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+      <mj-section background-url="./assets/img/header.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
         <mj-column>
-          <mj-text align="left" color="#fff" font-size="28px" padding-top="130px" padding-left="80px" padding-bottom="0px" mj-class="desktop-padding-left hello-text">Hola,</mj-text>
-          <mj-text align="left" color="#fff" font-size="28px" padding-left="80px" padding-bottom="60px" mj-class="hello-text">{{nombre_cliente}}</mj-text>
+          <mj-text align="left" font-weight="500"color="#001A4A" font-size="30px" padding-top="130px" padding-left="30px" padding-bottom="0px" mj-class="desktop-padding-left hello-text">¡Hola!</mj-text>
+          <mj-text font-weight="500" align="left" color="#001A4A" font-size="30px" padding-left="30px" padding-bottom="100px" mj-class="hello-text" >Valentina</mj-text>
         </mj-column>
       </mj-section>
 
       <mj-section>
         <mj-column width="600px" padding-left="30px" padding-right="30px">
           <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">Tenemos un recordatorio para ti</mj-text>
-          <mj-text font-size="15px" color="#575756" font-weight="300" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong>saldo en mora</strong> de <strong>{{diasmora}}</strong></mj-text>
-          <mj-text font-size="15px" color="#575756" font-weight="300" align="center" padding-bottom="0px">Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
+          <mj-text font-size="16px" color="#575756" font-weight="400" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong><span style="color: #CF3339;">saldo en mora</span></strong> de <strong>{{diasmora}}</strong></mj-text>
+          <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="0px" >Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
         </mj-column>
       </mj-section>
 
+<!--TABLA 1-->
+  <mj-section>
+      <mj-column>
+        <mj-table >
+          <!-- Primera fila con fondo azul y bordes redondeados -->
+          <tr style="background-color: #00256c; color: #ffffff;">
+            <td align="left" style="padding: 15px; border-radius: 12px 0px 0px 0px; font-weight: 500; font-size: 18px; line-height: 26px; word-wrap: break-word; padding-left: 35px">¿Dónde pagar?</td>
+            <td align="left" style="padding: 15px; border-radius: 0px 0px 0px 0px; font-weight: 500; font-size: 18px; line-height: 26px;">¿Cómo pagar?</td>
+            <td align="left" style="padding: 15px; border-radius: 0px 12px 0px 0px;"></td>
+          </tr>
+          <!-- Segunda fila -->
+          <tr>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/pagoAlmacen.png" width="400" style="vertical-align: middle; padding-left: 10px">
+            </td>
+            <td align="left" style="padding: 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Solo pago en efectivo1.png" width="180" style="vertical-align: middle;">
+            </td>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3;"></td>
+          </tr>
+          <!-- Tercera fila -->
+          <tr>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3; color:  #00256c">
+              <img src="./assets/img/AppSiste.png"  width="220"  style="vertical-align: middle;  padding-left: 15px">
+            </td>
+            <td align="left" style="padding: 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Button-bancolombia.png"  width="240" style="vertical-align: middle;">
+            </td>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Button-debito-pse.png"  width="190" style="vertical-align: middle;">
+            </td>
+          </tr>
+          <!-- Cuarta fila -->
+          <tr>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3; color:  #00256c">
+              <img src="./assets/img/web-sistecredito.png"  width="200" style="vertical-align: middle; padding-left: 10px">
+            </td>
+            <td align="left" style="padding: 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Button-bancolombia.png"  width="240"  style="vertical-align: middle;">
+            </td>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Button-debito-pse.png"  width="190" style="vertical-align: middle;">
+            </td>
+          </tr>
+          <!-- Quinta fila -->
+          <tr>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3;  border-radius: 0px 0px 0px 12px; ">
+              <img src="./assets/img/otros-medios1.png" style="vertical-align: middle;  padding-left: 15px">
+            </td>
+            <td align="left" style="padding: 20px 15px; background-color: #f3f3f3;">
+              <img src="./assets/img/Frame 198.png" style="vertical-align: middle;">
+            </td>
+            <td align="left" style="padding: 20px 15px 20px 15px; background-color: #f3f3f3;  border-radius: 0px 0px 12px 0px; ">
+              <img src="./assets/img/Frame 199.png" style="vertical-align: middle;">
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
       <mj-section>
         <mj-column>
-          <mj-table>
-            <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px;">
-              <th align="center" style="padding: 0 15px 0 0; background-color: #00256c; color: #ffffff;">¿Dónde pagar?</th>
-              <th align="center" style="padding: 0 15px; background-color: #00256c; color: #ffffff;">¿Cómo pagar?</th>
-              <th align="center" style="padding: 20px 0 0 15px; background-color: #00256c; color: #ffffff;">...</th>
-            </tr>
-            <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Frame 181.png" style="vertical-align: middle;"> 
-              Pago en almacén</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">Solo pago en efectivo</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
-            </tr>
-            <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/mobile-notch.png" style="vertical-align: middle;"> 
-              App Sistecredito personas</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_Bancolombia_Color.png" style="vertical-align: middle;"> 
-              Botón Bancolombia
-              </td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_PSE_Color.png" style="vertical-align: middle;">Débito PSE</td>
-            </tr>
-            <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/icon.png" style="vertical-align: middle;"> 
-              Sitio web Sistecredito</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_Bancolombia_Color.png" style="vertical-align: middle;"> 
-              Botón Bancolombia
-              </td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_PSE_Color.png" style="vertical-align: middle;">Débito PSE</td>
-            </tr>
-            <tr>
-              <td style="padding:10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/otros.png" style="vertical-align: middle;"> 
-              Otros medios de pago</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Frame 198.png" style="vertical-align: middle;"></td></td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Frame 199.png" style="vertical-align: middle;"></td>
-            </td>
-            </tr>
-          </mj-table>
+          <mj-text font-size="14px" color="#2C2A29" font-weight="400" line-height="19px" align="center">* Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo. 
+          </mj-text>
         </mj-column>
       </mj-section>
-
       <mj-section>
         <mj-column>
           <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
@@ -79,7 +93,7 @@
           <mj-table>
             <tr style="text-align:" left"; padding:"15px";">
               <th align="center" font-family="Red Hat Display" style="padding: 0 15px ; ; color: #ffffff;">
-               <mj-text >
+              <mj-text >
                   <img  style="vertical-align: middle" src="assets/img/Whatsapp-completo.png" alt="Descripción de la imagen" width="170" height= "31" />
                 </mj-text>
                 <!-- Escríbenos al Whatsapp 320 889 9898  -->
