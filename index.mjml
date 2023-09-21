@@ -1,6 +1,7 @@
 <mjml font-family="Red Hat Display">
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px">
+
       <mj-section background-url="https://credinetprodstorage.blob.core.windows.net/images/templates/CABEZOTE_MAIL_NOTIFICACION_PREVIA_AL_REPORTE_EN_CENTRALES_03.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
         <mj-column>
           <mj-text align="left" color="#fff" font-size="28px" padding-top="130px" padding-left="80px" padding-bottom="0px" mj-class="desktop-padding-left hello-text">Hola,</mj-text>
@@ -63,8 +64,16 @@
           </mj-table>
         </mj-column>
       </mj-section>
+      <!-- ----------------------------------FOOTER ------------------------------ -->
+      <!-- --------------------anuncio ------------------- -->
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="15px" color="#575756" font-weight="" line-height="100%" align="center">* Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo. 
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
-
+      <!-- --------------------dudas ---------------------- -->
       <mj-section>
         <mj-column>
           <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
@@ -72,30 +81,7 @@
         </mj-column>
       </mj-section>
 
-      <!-- <mj-section>
-        <mj-column>
-          <mj-table>
-            <tr style="text-align:" left"; padding:"15px";">
-              <th align="center" font-family="Red Hat Display" style="padding: 0 15px ; ; color: #ffffff;">
-               <mj-text >
-                  <img  style="vertical-align: middle" src="assets/img/Whatsapp-completo.png" alt="Descripción de la imagen" width="170" height= "31" />
-                </mj-text>
-              </th>
-              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                <mj-text>
-                  <img style="vertical-align: middle" src="assets/img/Linea telefonica.png" alt="Descripción de la imagen" width="170" height= "31" />
-                </mj-text>
-              </th>
-              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-              <mj-text>
-                  <img style="vertical-align: middle" src="assets/img/Linea telefonica-completo.png" alt="Descripción de la imagen" width="170"height="31" />
-                </mj-text>
-              </th>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section> -->
-
+      <!-- --------------------contacto ------------------- -->
       <mj-section>
         <!-- Primera columna centrada -->
         <mj-column>
@@ -119,6 +105,7 @@
         </mj-column>
       </mj-section>
 
+      <!-- --------------------redes ----------------------- -->
       <mj-section>
         <mj-column>
           <mj-table>
@@ -149,6 +136,7 @@
         </mj-column>
       </mj-section>
 
+      <!-- --------------------web y app ------------------- -->
       <mj-section>
         <mj-column>
           <mj-text align="center">
@@ -165,8 +153,8 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      </mj-section>
 
+      <!-- --------------------terminos y pqrs -------------- -->
       <mj-section>
         <mj-column>
           <mj-table>
