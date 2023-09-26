@@ -42,26 +42,69 @@
       </mj-section>
       <!-- FIN FILA 1  -->
 
-     <!-- INCIO FILA 2 -->
-<mj-section>
-  <mj-column>
-    <mj-text align="center">
-      <img src="assets/img/app-sistecredito-personas.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
-    </mj-text>
-  </mj-column>
+      <!-- INCIO FILA 2 -->
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <img src="assets/img/app-sistecredito-personas.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+          </mj-text>
+        </mj-column>
 
-  <mj-column>
-    <!-- Contenido de la segunda columna -->
-    <mj-text align="center">
-      <mj-column>
-        <!-- Botón 1 -->
-        <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
-        <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
-      </mj-column>
-    <!-- Fin del contenido de la segunda columna -->
-  </mj-column>
-</mj-section>
-<!-- FIN FILA 2 -->
+        <mj-column>
+          <!-- Contenido de la segunda columna -->
+          <mj-text align="center">
+            <mj-column>
+              <!-- Botón 1 -->
+              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
+              <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
+            </mj-column>
+          <!-- Fin del contenido de la segunda columna -->
+        </mj-column>
+      </mj-section>
+      <!-- FIN FILA 2 -->
+
+      <!-- INCIO FILA 3 -->
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <img src="assets/img/sitio-web-sistecredito.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <!-- Contenido de la segunda columna -->
+          <mj-text align="center">
+            <mj-column>
+              <!-- Botón 1 -->
+              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
+              <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
+            </mj-column>
+          <!-- Fin del contenido de la segunda columna -->
+        </mj-column>
+      </mj-section>
+      <!-- FIN FILA 3 -->
+
+      <!-- INCIO FILA 4 -->
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <img src="assets/img/otros-medios-pago.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <!-- Contenido de la segunda columna -->
+          <mj-text align="center">
+            <mj-column>
+              <!-- Botón 1 -->
+              <img src="assets/img/efecty.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
+              <img src="assets/img/gana.png" alt="Descripción de la imagen" width="99" height="31" style="vertical-align: middle;" />
+            </mj-column>
+          <!-- Fin del contenido de la segunda columna -->
+        </mj-column>
+      </mj-section>
+      <!-- FIN FILA 4 -->
+
 
 
       <mj-section>
