@@ -7,7 +7,29 @@
     <mj-image padding= "0px"/>
     <mj-text font-family = "Red Hat Display"/>
   </mj-attributes>
+
+   <mj-style>
+      .fondo{
+        background-color:#F5F8FF;
+      }
+
+      @media screen and (max-width: 768px) {
+        .center-image {
+          margin: 0 auto !important; 
+          text-align: center !important;
+        }
+      }
+
+     
+      @media screen and (min-width: 769px) {
+        .left-align-image {
+          float: left !important; 
+        }
+      }
+    </mj-style>
+    
   </mj-head>
+
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px">
 
@@ -34,9 +56,9 @@
             <img src="assets/img/pago-en-almacen.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
-        <mj-column>
-          <mj-text align="center">
-            <img src="assets/img/Solo pago en efectivo1.png" alt="Descripción de la imagen" width="162" height="36" style="vertical-align: middle;" />
+        <mj-column >
+          <mj-text  align="center">
+            <img  src="assets/img/Solo pago en efectivo1.png" alt="Descripción de la imagen" width="162" height="36" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
       </mj-section>
