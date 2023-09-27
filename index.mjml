@@ -36,7 +36,7 @@
         </mj-column>
         <mj-column>
           <mj-text align="center">
-            <img src="assets/img/solo-pago-en-efectivo-centrado.png" alt="Descripción de la imagen" width="363" height="36" style="vertical-align: middle;" />
+            <img src="assets/img/Solo pago en efect.png" alt="Descripción de la imagen" width="162" height="36" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
       </mj-section>
@@ -55,7 +55,7 @@
           <mj-text align="center">
             <mj-column>
               <!-- Botón 1 -->
-              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
+              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
               <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
             </mj-column>
           <!-- Fin del contenido de la segunda columna -->
@@ -76,7 +76,7 @@
           <mj-text align="center">
             <mj-column>
               <!-- Botón 1 -->
-              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
+              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
               <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
             </mj-column>
           <!-- Fin del contenido de la segunda columna -->
@@ -106,54 +106,6 @@
       <!-- FIN FILA 4 -->
 
 
-
-      <mj-section>
-        <mj-column>
-          <mj-table>
-            <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px;">
-              <th align="center" style="padding: 0 15px 0 0; background-color: #00256c; color: #ffffff;">¿Dónde pagar?</th>
-              <th align="center" style="padding: 0 15px; background-color: #00256c; color: #ffffff;">¿Cómo pagar?</th>
-              <th align="center" style="padding: 20px 0 0 15px; background-color: #00256c; color: #ffffff;">...</th>
-            </tr>
-            <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Frame 181.png" style="vertical-align: middle;"> 
-              Pago en almacén</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">Solo en efectivo</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
-            </tr>
-            <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/mobile-notch.png" style="vertical-align: middle;"> 
-              App Sistecredito personas</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_Bancolombia_Color.png" style="vertical-align: middle;"> 
-              Botón Bancolombia
-              </td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_PSE_Color.png" style="vertical-align: middle;">Débito PSE</td>
-            </tr>
-            <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/icon.png" style="vertical-align: middle;"> 
-              Sitio web Sistecredito</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_Bancolombia_Color.png" style="vertical-align: middle;"> 
-              Botón Bancolombia
-              </td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/Logo_PSE_Color.png" style="vertical-align: middle;">Débito PSE</td>
-            </tr>
-            <tr>
-              <td style="padding:10px 15px 10px 15px; background-color: #f3f3f3;">
-              <img src="./assets/img/otros.png" style="vertical-align: middle;"> 
-              Otros medios de pago</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">EFECTY</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">GANA</td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
       <!-- ----------------------------------FOOTER ------------------------------ -->
       <!-- --------------------Anuncio ------------------- -->
       <mj-section>
