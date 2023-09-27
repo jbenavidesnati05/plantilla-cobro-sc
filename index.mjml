@@ -36,7 +36,7 @@
         </mj-column>
         <mj-column>
           <mj-text align="center">
-            <img src="assets/img/Solo pago en efect.png" alt="Descripción de la imagen" width="162" height="36" style="vertical-align: middle;" />
+            <img src="assets/img/Solo pago en efectivo1.png" alt="Descripción de la imagen" width="162" height="36" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
       </mj-section>
@@ -115,14 +115,14 @@
         </mj-column>
       </mj-section>
       <!-- --------------------Dudas ---------------------- -->
-      <mj-section>
+      <mj-section background-color="#F5F8FF">
         <mj-column>
           <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
           </mj-text>
         </mj-column>
       </mj-section>
       <!-- --------------------Contacto ------------------- -->
-      <mj-section>
+      <mj-section background-color="#F5F8FF">
         <!-- Primera columna centrada -->
         <mj-column>
           <mj-text align="center">
@@ -145,7 +145,7 @@
         </mj-column>
       </mj-section>
       <!-- --------------------Redes ----------------------- -->
-      <mj-section>
+      <mj-section background-color="#F5F8FF">
         <mj-column width="45%">
           <mj-table>
             <tr style="text-align:"center"; padding:"0px";">
@@ -176,7 +176,7 @@
       </mj-section>
       <!-- --------------------Web y app ------------------- -->
       <!-- <mj-wrapper padding="0% 20% "> -->
-        <mj-section  >
+        <mj-section background-color="#F5F8FF" >
           <mj-column >
             <mj-text align="center">
               <a href="https://www.sistecredito.com/index.html">
@@ -194,7 +194,7 @@
         </mj-section>
        <!-- </mj-wrapper> -->
       <!-- --------------------Terminos y pqrs -------------- -->
-        <mj-section>
+        <mj-section background-color="#F5F8FF">
           <mj-column width="50%">
             <mj-table>
               <tr style="text-align:" left"; padding:"0px";">
