@@ -1,7 +1,6 @@
 <mjml font-family="Red Hat Display">
   <mj-head>
     <mj-attributes>
-     <mj-text font-family="Red Hat Display" />
     <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
     <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
     <mj-section padding= "0px" background-color = "#FFFFFF" />
