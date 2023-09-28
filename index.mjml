@@ -216,51 +216,18 @@
         </mj-section>
        <!-- </mj-wrapper> -->
       <!-- --------------------Terminos y pqrs -------------- -->
-        <mj-section background-color="#F5F8FF">
-          <mj-column width="50%">
-            <mj-table>
-              <tr style="text-align:" left"; padding:"0px";">
-                <th align="center" style="padding: 0 0 px; ; color: #00369C;">
-                  <mj-text>
-                  <a href="https://www.instagram.com/sistecredito/?hl=es">
-                      <img align="center" src="assets/img/PQRS.png" alt="Descripción de la imagen" width="33" height= "18"/>
-                    </a>
-                  </mj-text>
-                </th>
-                <th align="center" style="padding: 0 0 px; ; color: #00369C;">
-                  <mj-text align="center">
-                  | 
-                  </mj-text>
-                </th>
-                <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
-                  <mj-text>
-                    <a href="https://www.instagram.com/sistecredito/?hl=es">
-                      <img align="center" src="assets/img/Términos legales.png" alt="Descripción de la imagen" width="89" height= "18"/>
-                    </a>
-                  </mj-text>
-                </th>
-                <th align="center" style="padding: 0 0 px; ; color: #00369C;">
-                  <mj-text align="center">
-                  |
-                  </mj-text>
-                </th>
-                <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
-                  <mj-text>
-                    <a href="https://www.instagram.com/sistecredito/?hl=es">
-                      <img src="assets/img/Anular suscripción.png" alt="Descripción de la imagen" width="89" height= "18"/>
-                    </a>
-                  </mj-text>
-                </th>
-              </tr>
-            </mj-table>
-          </mj-column>
-        </mj-section>
+      <mj-section background-color="#F5F8FF">
+        <mj-column>
+          <mj-text>
+            <div style="text-align: center;">
+              <img src="assets/img/terminos.png" alt="Descripción de la imagen" width="282" height="18" />
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
     </mj-container>
   </mj-body>
-
-
-
   <mj-breakpoint width="600px">
   </mj-breakpoint>
 </mjml>
