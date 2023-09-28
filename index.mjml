@@ -1,11 +1,10 @@
-<mjml>
+<mjml font-family="Red Hat Display">
   <mj-head>
     <mj-attributes>
     <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
     <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
     <mj-section padding= "0px" background-color = "#FFFFFF" />
     <mj-image padding= "0px"/>
-    <mj-text font-family = "Red Hat Display"/>
   </mj-attributes>
 
    <mj-style>
@@ -19,32 +18,49 @@
           text-align: center !important;
         }
       }
-
-     
       @media screen and (min-width: 769px) {
         .left-align-image {
           float: left !important; 
         }
       }
+
+  @media screen and (max-width: 480px) {
+  .responsiveHola {
+    font-size: 20px !important; /* Tamaño de fuente más pequeño */
+    padding-top: 20px !important; /* Ajuste superior */
+  }
+
+  .responsiveNombre {
+    font-size: 20px !important; /* Tamaño de fuente más pequeño */
+    padding-top: 10px !important; /* Ajuste superior */
+  }
+
+  .font-smaller {
+    font-size: 13px !important;
+    padding-top: 0px !important;
+  }
+}
     </mj-style>
     
   </mj-head>
 
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px">
+  <mj-section background-url="./assets/img/header.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+  <mj-column>
+    <mj-text align="left" font-weight="500" color="#001A4A" font-size="30px" padding-top="130px" padding-left="30px" padding-bottom="0px" mj-class="font-smaller desktop-padding-left hello-text responsiveHola ">¡Hola!</mj-text>
+    <mj-text font-weight="500" align="left" color="#001A4A" font-size="30px" padding-left="30px" padding-bottom="100px" mj-class="font-smaller responsiveNombre">Valentina</mj-text>
+  </mj-column>
+</mj-section>
 
-      <mj-section background-url="assets/img/header.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
-        <mj-column>
-          <mj-text align="left" color="#fff" font-size="28px" padding-top="130px" padding-left="80px" padding-bottom="0px" mj-class="desktop-padding-left hello-text">Hola,</mj-text>
-          <mj-text align="left" color="#fff" font-size="28px" padding-left="80px" padding-bottom="60px" mj-class="hello-text">{{nombre_cliente}}</mj-text>
-        </mj-column>
-      </mj-section>
 
       <mj-section>
         <mj-column width="600px" padding-left="30px" padding-right="30px">
-          <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">Tenemos un recordatorio para ti</mj-text>
-          <mj-text font-size="15px" color="#575756" font-weight="300" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong>saldo en mora</strong> de <strong>{{diasmora}}</strong></mj-text>
-          <mj-text font-size="15px" color="#575756" font-weight="300" align="center" padding-bottom="0px">Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
+          <mj-text padding-top="30px" font-size="23px" color="#575756" font-weight="bold" line-height="100%" align="center" >Tenemos un recordatorio para ti</mj-text>
+
+          <mj-text  padding-top="25px" font-size="16px" color="#575756" font-weight="400" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong><span style="color: #CF3339;">saldo en mora</span></strong> de <strong>{{diasmora}}</strong></mj-text>
+
+          <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="30px" >Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
         </mj-column>
       </mj-section>
 
