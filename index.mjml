@@ -8,9 +8,14 @@
   </mj-attributes>
 
    <mj-style>
-      .fondo{
-        background-color:#F5F8FF;
-      }
+
+      @media only screen and (max-width: 480px) {
+    .mobile-background {
+      background-image: url('./assets/img/header-Mobile.png.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
 
       @media screen and (max-width: 768px) {
         .center-image {
@@ -24,36 +29,56 @@
         }
       }
 
-  @media screen and (max-width: 480px) {
-  .responsiveHola {
-    font-size: 20px !important; /* Tamaño de fuente más pequeño */
-    padding-top: 20px !important; /* Ajuste superior */
-  }
+      @media screen and (max-width: 480px) {
+      .responsiveHola {
+        font-size: 20px !important; /* Tamaño de fuente más pequeño */
+        padding-top: 20px !important; /* Ajuste superior */
+      }
 
-  .responsiveNombre {
-    font-size: 20px !important; /* Tamaño de fuente más pequeño */
-    padding-top: 10px !important; /* Ajuste superior */
-  }
+      .responsiveNombre {
+        font-size: 20px !important; /* Tamaño de fuente más pequeño */
+        padding-top: 10px !important; /* Ajuste superior */
+      }
 
-  .font-smaller {
-    font-size: 13px !important;
-    padding-top: 0px !important;
-  }
-}
+      .font-smaller {
+        font-size: 13px !important;
+        padding-top: 0px !important;
+      }
+      .mobile-background {
+      background-image: url('./assets/img/mobile-header.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    }
     </mj-style>
     
   </mj-head>
 
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px">
-  <mj-section background-url="./assets/img/header.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
-  <mj-column>
-    <mj-text align="left" font-weight="500" color="#001A4A" font-size="30px" padding-top="130px" padding-left="30px" padding-bottom="0px" mj-class="font-smaller desktop-padding-left hello-text responsiveHola ">¡Hola!</mj-text>
-    <mj-text font-weight="500" align="left" color="#001A4A" font-size="30px" padding-left="30px" padding-bottom="100px" mj-class="font-smaller responsiveNombre">Valentina</mj-text>
-  </mj-column>
-</mj-section>
+
+      <!-- --------------------Logo sistecredito ------------------- -->
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            <div style="text-align: center;">
+              <img src="assets/img/logo-sistecredito.png" alt="Descripción de la imagen" width="28%" height="18" />
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- --------------------Hola ------------------- -->
+          <mj-section background-url="./assets/img/banner-desktop.png" background-size="100% 100%" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-text align="left" font-weight="500" color="#001A4A" font-size="30px" padding-top="130px" padding-left="30px" padding-bottom="0px" mj-class="font-smaller desktop-padding-left hello-text responsiveHola ">¡Hola!</mj-text>
+        <mj-text font-weight="500" align="left" color="#001A4A" font-size="30px" padding-left="30px" padding-bottom="100px" mj-class="font-smaller responsiveNombre">Valentina</mj-text>
+      </mj-column>
+    </mj-section>
 
 
+
+      <!-- --------------------Recordatorio ------------------- -->
       <mj-section>
         <mj-column width="600px" padding-left="30px" padding-right="30px">
           <mj-text padding-top="30px" font-size="23px" color="#575756" font-weight="bold" line-height="100%" align="center" >Tenemos un recordatorio para ti</mj-text>
@@ -142,7 +167,6 @@
         </mj-column>
       </mj-section>
       <!-- FIN FILA 4 -->
-
 
       <!-- ----------------------------------FOOTER ------------------------------ -->
       <!-- --------------------Anuncio ------------------- -->
