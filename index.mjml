@@ -1,55 +1,17 @@
 <mjml font-family="Red Hat Display">
   <mj-head>
+
     <mj-attributes>
-    <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
-    <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
-    <mj-section padding= "0px" background-color = "#FFFFFF" />
-    <mj-image padding= "0px"/>
-  </mj-attributes>
+      <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
+      <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
+      <mj-section padding= "0px" background-color = "#FFFFFF" />
+      <mj-image padding= "0px"/>
+    </mj-attributes>
 
-   <mj-style>
+    <mj-breakpoint width="600px">
+    </mj-breakpoint>
 
-      @media only screen and (max-width: 480px) {
-    .mobile-background {
-      background-image: url('./assets/img/header-Mobile.png.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  }
-
-      @media screen and (max-width: 768px) {
-        .center-image {
-          margin: 0 auto !important; 
-          text-align: center !important;
-        }
-      }
-      @media screen and (min-width: 769px) {
-        .left-align-image {
-          float: left !important; 
-        }
-      }
-
-      @media screen and (max-width: 480px) {
-      .responsiveHola {
-        font-size: 20px !important; /* Tamaño de fuente más pequeño */
-        padding-top: 20px !important; /* Ajuste superior */
-      }
-
-      .responsiveNombre {
-        font-size: 20px !important; /* Tamaño de fuente más pequeño */
-        padding-top: 10px !important; /* Ajuste superior */
-      }
-
-      .font-smaller {
-        font-size: 13px !important;
-        padding-top: 0px !important;
-      }
-      .mobile-background {
-      background-image: url('./assets/img/mobile-header.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    }
+    <mj-style>
     </mj-style>
     
   </mj-head>
@@ -57,33 +19,31 @@
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px">
 
-      <!-- --------------------Logo sistecredito ------------------- -->
+     <!-- --------------------Logo sistecredito ------------------- -->
       <mj-section>
         <mj-column>
           <mj-text>
             <div style="text-align: center;">
-              <img src="assets/img/logo-sistecredito.png" alt="Descripción de la imagen" width="28%" height="18" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/dad3a440-da8d-471f-aa71-c91843dd738b/152x35.png" alt="Descripción de la imagen" width="28%" height="18" />
             </div>
           </mj-text>
         </mj-column>
       </mj-section>
 
-      <!-- --------------------Hola ------------------- -->
-          <mj-section background-url="./assets/img/banner-desktop.png" background-size="100% 100%" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+    <!-- --------------------Hola ------------------- -->
+      <mj-section background-url="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/00303c32-0b43-4963-b4d8-5f5d3c711bd8/750x316.png" background-size="100% 100%" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
       <mj-column>
         <mj-text align="left" font-weight="500" color="#001A4A" font-size="30px" padding-top="130px" padding-left="30px" padding-bottom="0px" mj-class="font-smaller desktop-padding-left hello-text responsiveHola ">¡Hola!</mj-text>
         <mj-text font-weight="500" align="left" color="#001A4A" font-size="30px" padding-left="30px" padding-bottom="100px" mj-class="font-smaller responsiveNombre">Valentina</mj-text>
       </mj-column>
     </mj-section>
 
-
-
       <!-- --------------------Recordatorio ------------------- -->
       <mj-section>
         <mj-column width="600px" padding-left="30px" padding-right="30px">
           <mj-text padding-top="30px" font-size="23px" color="#575756" font-weight="bold" line-height="100%" align="center" >Tenemos un recordatorio para ti</mj-text>
 
-          <mj-text  padding-top="25px" font-size="16px" color="#575756" font-weight="400" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong><span style="color: #CF3339;">saldo en mora</span></strong> de <strong>{{diasmora}}</strong></mj-text>
+          <mj-text  padding-top="25px" font-size="16px" color="#575756" font-weight="400" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong><span style="color: #CF3339;">saldo en mora</span></strong> de <strong>{{diasmora}}</strong> dias</mj-text>
 
           <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="30px" >Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
         </mj-column>
@@ -91,15 +51,15 @@
 
       <!-- --------------------Donde y como pagar ? ------------------- -->
       <!-- INICIO FILA 1  -->
-      <mj-section>
-        <mj-column>
+      <mj-section >
+        <mj-column width="257px">
           <mj-text align="center">
-            <img src="assets/img/pago-en-almacen.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/fc253cec-fce1-4bd6-96e0-1752711b5ce6/262x36.png" alt="Pago en el almacen" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
         <mj-column >
           <mj-text  align="center">
-            <img  src="assets/img/Solo pago en efectivo1.png" alt="Descripción de la imagen" width="162" height="36" style="vertical-align: middle;" />
+            <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/d6a1a431-e726-4199-8893-2ad7a1cc31d7/363x48.png" alt="Solo pago efectivo" width="324" height="36" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
       </mj-section>
@@ -107,19 +67,19 @@
 
       <!-- INCIO FILA 2 -->
       <mj-section>
-        <mj-column>
+        <mj-column  width="257px">
           <mj-text align="center">
-            <img src="assets/img/app-sistecredito-personas.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bd77ce7e-e261-45e7-99ac-cbe6b8e485a6/257x49.png" alt="App sistecredito personas" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
         <mj-column>
           <!-- Contenido de la segunda columna -->
           <mj-text align="center">
-            <mj-column>
+            <mj-column width="250px">
               <!-- Botón 1 -->
-              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
-              <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/4ccea7fa-775d-41c9-b6ca-7ff5b8c4c885/160x41.png" alt="Boton Bancolombia" width="122" height="31" style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/efb155b9-4bb6-4db9-bbfd-8e072dc3c03f/122x41.png" alt="Debito PSE" width="122" height="31" style="vertical-align: middle;" />
             </mj-column>
           <!-- Fin del contenido de la segunda columna -->
         </mj-column>
@@ -128,9 +88,9 @@
 
       <!-- INCIO FILA 3 -->
       <mj-section>
-        <mj-column>
+        <mj-column  width="257px">
           <mj-text align="center">
-            <img src="assets/img/sitio-web-sistecredito.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/ae8cce7d-1563-402d-b757-fb2a5dbfba9d/226x49.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
@@ -139,8 +99,8 @@
           <mj-text align="center">
             <mj-column>
               <!-- Botón 1 -->
-              <img src="assets/img/boton-bancolombia.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
-              <img src="assets/img/boton-debito-pse.png" alt="Descripción de la imagen" width="122" height="31" style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/4ccea7fa-775d-41c9-b6ca-7ff5b8c4c885/160x41.png" alt="Boton Bancolombia" width="122" height="31" style="vertical-align: middle;" />
+               <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/efb155b9-4bb6-4db9-bbfd-8e072dc3c03f/122x41.png" alt="Debito PSE" width="122" height="31" style="vertical-align: middle;" />
             </mj-column>
           <!-- Fin del contenido de la segunda columna -->
         </mj-column>
@@ -149,9 +109,9 @@
 
       <!-- INCIO FILA 4 -->
       <mj-section>
-        <mj-column>
+        <mj-column width="257px">
           <mj-text align="center">
-            <img src="assets/img/otros-medios-pago.png" alt="Descripción de la imagen" width="262" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/12ae2a3b-3b56-410b-a829-6be13377f289/291x66.png" alt="Otros medios de pago" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
@@ -160,8 +120,8 @@
           <mj-text align="center">
             <mj-column>
               <!-- Botón 1 -->
-              <img src="assets/img/efecty.png" alt="Descripción de la imagen" width="120" height="31" style="vertical-align: middle;" />
-              <img src="assets/img/gana.png" alt="Descripción de la imagen" width="99" height="31" style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/99f2e839-1924-4f64-a47b-b8473e7582c2/175x50.png" alt="Efecty" width="120" height="31" style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a5e7c3e1-adc9-466c-9a53-4196442cf6d7/99x66.png" alt="Gana" width="99" height="31" style="vertical-align: middle;" />
             </mj-column>
           <!-- Fin del contenido de la segunda columna -->
         </mj-column>
@@ -188,21 +148,21 @@
         <!-- Primera columna centrada -->
         <mj-column>
           <mj-text align="center">
-            <img src="assets/img/Whatsapp-completo.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/94f7be40-3195-4257-a7d4-35eb44fc9738/172x33.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
         
         <!-- Segunda columna centrada -->
         <mj-column>
           <mj-text align="center">
-            <img src="assets/img/Linea telefonica.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5f22e39f-4e9d-40b0-ab5e-2c43d74e3193/176x36.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
         
         <!-- Tercera columna centrada -->
         <mj-column>
           <mj-text align="center">
-            <img src="assets/img/Linea telefonica-completo.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7d3318e3-160d-4a4c-b145-0da060738dad/174x36.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
       </mj-section>
@@ -214,21 +174,21 @@
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
                 <a href="https://www.facebook.com/sistecredito">
-                  <img align= "right" src="assets/img/Facebook.png" alt="Descripción de la imagen" width="30" />
+                  <img align= "right" src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/551bf1e7-9981-45b2-a7b1-c13a9321ccc1/26x25.png" alt="Descripción de la imagen" width="30" />
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
                   <a href="https://www.instagram.com/sistecredito/?hl=es">
-                    <img align= "center"src="assets/img/instagram.png" alt="Descripción de la imagen" width="30" />
+                    <img align= "center"src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/fb2cb1d0-f293-4a76-851f-9c42d2fce1c1/25x25.png" alt="Descripción de la imagen" width="30" />
                   </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
                 <a href="https://www.tiktok.com/discover/sistecredito?lang=es">
-                  <img align= "left"src="assets/img/tik-tok.png" alt="Descripción de la imagen" width="30" />
+                  <img align= "left"src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/b7eaf3db-75d0-40a9-be2d-466f2f9a1bf6/25x25.png" alt="Descripción de la imagen" width="30" />
                 </a>
                 </mj-text>
               </th>
@@ -242,14 +202,14 @@
           <mj-column >
             <mj-text align="center">
               <a href="https://www.sistecredito.com/index.html">
-                <img  src="assets/img/www.sistecredito.com.png" alt="Descripción de la imagen" width="120" height="18" />
+                <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/be232229-d284-47f2-bf0b-84f303ec5f29/120x10.png" alt="Descripción de la imagen" width="120" height="18" />
               </a>
             </mj-text>
           </mj-column>
           <mj-column >
             <mj-text align="center">
               <a href="https://www.instagram.com/sistecredito/?hl=es">
-                <img  src="assets/img/descarga de app.png" alt="Descripción de la imagen" width="187" height="18" />
+                <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/8e742267-e826-44a5-a163-1586469d3e20/188x19.png" alt="Descripción de la imagen" width="187" height="18" />
               </a>
             </mj-text>
           </mj-column>
@@ -260,7 +220,7 @@
         <mj-column>
           <mj-text>
             <div style="text-align: center;">
-              <img src="assets/img/terminos.png" alt="Descripción de la imagen" width="282" height="18" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/faba9a43-f6f8-4153-8a1e-36fa7c888143/283x19.png" alt="Descripción de la imagen" width="282" height="18" />
             </div>
           </mj-text>
         </mj-column>
@@ -268,6 +228,5 @@
 
     </mj-container>
   </mj-body>
-  <mj-breakpoint width="600px">
-  </mj-breakpoint>
+
 </mjml>
