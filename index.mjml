@@ -4,7 +4,7 @@
     <mj-attributes>
       <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
       <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
-      <mj-class name="textoLetraNegra" align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto"></mj-class>
+      <mj-class name="textoLetraNegra"  align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
       <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
       <mj-section padding= "0px" background-color = "#FFFFFF" />
       <mj-image padding= "0px"/>
@@ -16,8 +16,8 @@
     <mj-style>
       .tituloComoPagar {
           padding: 2px 0;
-          border-top-left-radius: 20px;
-          border-top-right-radius: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
           background-color: #002468;
           font-family: "Roboto"
       }
@@ -61,8 +61,8 @@
       <!-- --------------------Donde y como pagar ? ------------------- -->
       <!-- --------------------titulo ------------------- -->
      <mj-section  >
-      <mj-column css-class="tituloComoPagar" width="89%" >
-        <mj-text color="#ffffff" align="center" font-size="20px">
+      <mj-column css-class="tituloComoPagar" width="670px" >
+        <mj-text color="#ffffff" align="center" font-size="15px">
          ¿Donde y como pagar?
         </mj-text>
       </mj-column>
@@ -70,7 +70,7 @@
 
 
       <!-- INICIO FILA 1  -->
-      <mj-section background-color="#F3F3F3" text-align="center"  >
+      <mj-section  text-align="center" >
         <mj-column  >
           <mj-text  mj-class ="textoLetraNegra">
             <img src="assets/img/logo-pago-almacen.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
@@ -88,18 +88,17 @@
 
 
       <!-- INCIO FILA 2  -->
-      <mj-section  background-color="#F3F3F3">
+      <mj-section >
         <mj-column  >
           <mj-text mj-class ="textoLetraAzul">
-            <img src="assets/img/logo-app-sistecredito.png" alt="Sitio web sistecredito" width="24" height="31" style="vertical-align: middle;" />
-            App Sistecrédito Personas
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bd77ce7e-e261-45e7-99ac-cbe6b8e485a6/257x49.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
         <mj-column >
-          <mj-text align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto">
+          <mj-text  mj-class ="textoLetraNegra" line-height="50px" >
             <mj-column >
-              <img src="assets/img/logo-bancolombia.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
+              <img src="assets/img/logo-bancolombia.png" alt="Boton Bancolombia" width="26" height="26" style="vertical-align: middle;" />
             Botón Bancolombia
               <img src="assets/img/logo-pse.png" alt="Boton Bancolombia" width="24" height="31" font-family="Roboto"style="vertical-align: middle;" />
             Débito PSE
@@ -108,16 +107,15 @@
       <!-- FIN FILA 2  -->
 
       <!-- INCIO FILA 3 -->
-      <mj-section background-color="#F3F3F3">
+      <mj-section >
          <mj-column  >
           <mj-text mj-class ="textoLetraAzul">
-            <img src="assets/img/logo-sitio-web.png" alt="Sitio web sistecredito" width="24" height="31" style="vertical-align: middle;" />
-            Sitio WEb Sistecrédito
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/ae8cce7d-1563-402d-b757-fb2a5dbfba9d/226x49.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
         <mj-column >
-          <mj-text mj-class ="textoLetraNegra">
+          <mj-text mj-class ="textoLetraNegra" line-height="50px"  >
             <mj-column >
               <img src="assets/img/logo-bancolombia.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
             Botón Bancolombia
@@ -129,17 +127,17 @@
       <!-- FIN FILA 3 -->
 
       <!-- INCIO FILA 4 -->
-      <mj-section background-color="#F3F3F3" >
+      <mj-section  >
         <mj-column >
-          <mj-text  mj-class ="textoLetraNegra">
+          <mj-text  mj-class ="textoLetraNegra" line-height="50px" >
             <img src="assets/img/logo-otros-medios-pago.png" alt="Otros medios de pago" width="24" height="31" style="vertical-align: middle;" />
             Otros medios de pago
           </mj-text>
         </mj-column>
         <mj-column >
               <mj-text align="center">
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/99f2e839-1924-4f64-a47b-b8473e7582c2/175x50.png" alt="Efecty" width="112" height="31" style="vertical-align: middle;" />
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a5e7c3e1-adc9-466c-9a53-4196442cf6d7/99x66.png" alt="Efecty" width="100" height="31" style="vertical-align: middle;" />
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/99f2e839-1924-4f64-a47b-b8473e7582c2/175x50.png" alt="Efecty" width="150" height="31" style="vertical-align: top;" />
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a5e7c3e1-adc9-466c-9a53-4196442cf6d7/99x66.png" alt="Efecty" width="95" height="31" style="vertical-align: middle;" />
               </mj-text>
         </mj-column>
     </mj-section>
