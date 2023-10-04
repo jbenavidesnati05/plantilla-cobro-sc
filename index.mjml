@@ -1,9 +1,11 @@
-<mjml font-family="Red Hat Display">
+<mjml font-family="Roboto">
   <mj-head>
 
     <mj-attributes>
       <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
       <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
+      <mj-class name="textoLetraNegra" align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto"></mj-class>
+      <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
       <mj-section padding= "0px" background-color = "#FFFFFF" />
       <mj-image padding= "0px"/>
     </mj-attributes>
@@ -17,6 +19,7 @@
           border-top-left-radius: 20px;
           border-top-right-radius: 20px;
           background-color: #002468;
+          font-family: "Roboto"
       }
     </mj-style>
     
@@ -69,13 +72,13 @@
       <!-- INICIO FILA 1  -->
       <mj-section background-color="#F3F3F3" text-align="center"  >
         <mj-column  >
-          <mj-text  align="center" font-size="16px" font-weight="500" line-height="22px">
+          <mj-text  mj-class ="textoLetraNegra">
             <img src="assets/img/logo-pago-almacen.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
             Pago en almacen
           </mj-text>
         </mj-column>
         <mj-column  vertical-align="middle">
-          <mj-text align="center" font-size="16px" font-weight="500" line-height="35px" >
+          <mj-text mj-class ="textoLetraNegra"line-height="35px" >
             Solo pago en Efectivo
           </mj-text>
         </mj-column>
@@ -87,7 +90,7 @@
       <!-- INCIO FILA 2  -->
       <mj-section  background-color="#F3F3F3">
         <mj-column  >
-          <mj-text align="center" font-size="16px" font-weight="700" line-height="26px" color="#00369C" font-family="Roboto">
+          <mj-text mj-class ="textoLetraAzul">
             <img src="assets/img/logo-app-sistecredito.png" alt="Sitio web sistecredito" width="24" height="31" style="vertical-align: middle;" />
             App Sistecrédito Personas
           </mj-text>
@@ -107,14 +110,14 @@
       <!-- INCIO FILA 3 -->
       <mj-section background-color="#F3F3F3">
          <mj-column  >
-          <mj-text align="center" font-size="16px" font-weight="700" line-height="26px" color="#00369C" font-family="Roboto">
+          <mj-text mj-class ="textoLetraAzul">
             <img src="assets/img/logo-sitio-web.png" alt="Sitio web sistecredito" width="24" height="31" style="vertical-align: middle;" />
             Sitio WEb Sistecrédito
           </mj-text>
         </mj-column>
 
         <mj-column >
-          <mj-text align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto">
+          <mj-text mj-class ="textoLetraNegra">
             <mj-column >
               <img src="assets/img/logo-bancolombia.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
             Botón Bancolombia
@@ -128,7 +131,7 @@
       <!-- INCIO FILA 4 -->
       <mj-section background-color="#F3F3F3" >
         <mj-column >
-          <mj-text  align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto">
+          <mj-text  mj-class ="textoLetraNegra">
             <img src="assets/img/logo-otros-medios-pago.png" alt="Otros medios de pago" width="24" height="31" style="vertical-align: middle;" />
             Otros medios de pago
           </mj-text>
