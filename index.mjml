@@ -73,7 +73,7 @@
       <mj-section  text-align="center" >
         <mj-column  >
           <mj-text  mj-class ="textoLetraNegra">
-            <img src="assets/img/logo-pago-almacen.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a57d7225-0e6a-4f5d-af4f-cce8798219a3/36x36.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
             Pago en almacen
           </mj-text>
         </mj-column>
@@ -98,10 +98,12 @@
         <mj-column >
           <mj-text  mj-class ="textoLetraNegra" line-height="50px" >
             <mj-column >
-              <img src="assets/img/logo-bancolombia.png" alt="Boton Bancolombia" width="26" height="26" style="vertical-align: middle;" />
+            <mj-text>
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="26" height="26" style="vertical-align: middle;" />
             Botón Bancolombia
-              <img src="assets/img/logo-pse.png" alt="Boton Bancolombia" width="24" height="31" font-family="Roboto"style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="24" height="31" font-family="Roboto"style="vertical-align: middle;" />
             Débito PSE
+            </mj-text>
             </mj-column>
       </mj-section>
       <!-- FIN FILA 2  -->
@@ -117,10 +119,12 @@
         <mj-column >
           <mj-text mj-class ="textoLetraNegra" line-height="50px"  >
             <mj-column >
-              <img src="assets/img/logo-bancolombia.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-            Botón Bancolombia
-              <img src="assets/img/logo-pse.png" alt="Boton Bancolombia" width="24" height="31" font-family="Roboto"style="vertical-align: middle;" />
-            Débito PSE
+              <mj-text>
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
+              Botón Bancolombia
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="24" height="31" font-family="Roboto"style="vertical-align: middle;" />
+              Débito PSE
+              </mj-text>
             </mj-column>
         </mj-column>
       </mj-section>
@@ -130,7 +134,7 @@
       <mj-section  >
         <mj-column >
           <mj-text  mj-class ="textoLetraNegra" line-height="50px" >
-            <img src="assets/img/logo-otros-medios-pago.png" alt="Otros medios de pago" width="24" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bf428b0f-5d99-4da8-b5e1-2fe961c5a09c/36x37.png" alt="Otros medios de pago" width="24" height="31" style="vertical-align: middle;" />
             Otros medios de pago
           </mj-text>
         </mj-column>
