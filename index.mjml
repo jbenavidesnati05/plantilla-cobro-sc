@@ -14,7 +14,13 @@
       <mj-image padding= "0px"/>
     </mj-attributes>
 
-
+ css-class="my-custom-class"
+                   font-family="Red Hat Display"
+                   font-size="12px"
+                   font-weight="500"
+                   line-height="18px"
+                   letter-spacing="0em"
+                   text-align="center">
 
 
     <!-- <mj-breakpoint width="750px"> -->
@@ -247,25 +253,31 @@
           </mj-table>
         </mj-column>
       </mj-section>
+
       <!-- --------------------Web y app ------------------- -->
       <!-- <mj-wrapper padding="0% 20% "> -->
         <mj-section background-color="#F5F8FF" >
           <mj-column >
-            <mj-text align="center">
-              <a href="https://www.sistecredito.com/index.html">
-                <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/be232229-d284-47f2-bf0b-84f303ec5f29/120x10.png" alt="Descripción de la imagen" width="120" height="18" />
-              </a>
-            </mj-text>
+<mj-text align="center">
+            <a href="https://www.sistecredito.com/index.html" style="text-decoration: none; color: #00369C; font-weight: 500; font-family:Roboto; font-size:16px">
+              www.sistecredito.com
+            </a>
+          </mj-text>
+        </mj-text>
           </mj-column>
           <mj-column >
             <mj-text align="center">
-              <a href="https://www.instagram.com/sistecredito/?hl=es">
-                <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/8e742267-e826-44a5-a163-1586469d3e20/188x19.png" alt="Descripción de la imagen" width="187" height="18" />
+              <a href="https://www.instagram.com/sistecredito/?hl=es" style="text-decoration: none; color: #000000;font-weight: 500;font-family:Roboto;font-size:16px">
+              <mj-text>
+                Descarga nuestra App
+              </mj-text>
+                <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/35397990-cebc-439e-81fe-8a76b47b2bc5/59x18.png" alt="Descripción de la imagen" width="58" height="18" />
               </a>
             </mj-text>
           </mj-column>
         </mj-section>
        <!-- </mj-wrapper> -->
+
       <!-- --------------------Terminos y pqrs -------------- -->
       <mj-section background-color="#F5F8FF">
         <mj-column>
