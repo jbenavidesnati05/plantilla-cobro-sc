@@ -81,7 +81,7 @@
         <mj-column mj-class ="primeraColumna" >
           <mj-text  mj-class ="textoLetraNegra">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a57d7225-0e6a-4f5d-af4f-cce8798219a3/36x36.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
-            Pago en almacen
+            Pago en almacen 
           </mj-text>
         </mj-column>
         <mj-column mj-class ="segundaColumna" >
@@ -188,30 +188,47 @@
         </mj-column>
       </mj-section>
       <!-- --------------------Contacto ------------------- -->
+
       <mj-section background-color="#F5F8FF">
         <!-- Primera columna centrada -->
-    <mj-column>
-    <mj-text >
-        <img src="assets/img/logo-whatsapp.png" alt="Descripción de la imagen" width="30" height="31" style="vertical-align: middle;" />
-    </mj-text>
-    <mj-column >
-      
-      <mj-text align="left">
-        Escríbenos al <br />Whatsapp 320 889 9898
-      </mj-text>
-    </mj-column>
-    </mj-column>
+        <mj-column >
+          <mj-table >
+            <tr >
+              <td align="center">
+                <mj-text mj-class="textoLetraNegra" >
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e46ab457-2529-4ac1-ab06-ce27a04726c1/30x31.png" alt="Pago en el almacen" width="36px" height="31" style="vertical-align: middle;" />
+                </mj-text>
+              </td>
+              <td align="left">
+                <mj-text mj-class="textoLetraNegra" line-height="360px" align="right">
+                  Escríbenos al  Whatsapp <br/> 320 889 9898
+                </mj-text>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
 
         
         <!-- Segunda columna centrada -->
-        <mj-column>
-          <mj-text align="center">
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5f22e39f-4e9d-40b0-ab5e-2c43d74e3193/176x36.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
-          </mj-text>
+       <mj-column  >
+          <mj-table >
+            <tr>
+              <td>
+                <mj-text >
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Pago en el almacen" width="42px" height="31" style="vertical-align: middle;" />
+                </mj-text>
+              </td>
+              <td>
+                <mj-text  line-height="36px">
+                Comunícate al <br/> (+57) 320 889 9898
+                </mj-text>
+              </td>
+            </tr>   
+          </mj-table>
         </mj-column>
         
         <!-- Tercera columna centrada -->
-        <mj-column>
+        <mj-column >
           <mj-text align="center" mj-class = "textoLetraInfo">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
             info@sistecredito.com
