@@ -8,6 +8,7 @@
       <mj-class name="segundaColumna"  width= "370px" background-color="#F3F3F3"></mj-class>
       <mj-class name="textoLetraNegra"  align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
       <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
+      <mj-class name="textoLetraInfo" align="center" font-size="13px" font-weight="400" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
       <mj-class name="divider" padding="0px" border-color="#DDDDDD" border-width="1px"></mj-class>
       <mj-class name="dividerPie" padding="0px" border-color="#C6D9FF" border-width="1px"></mj-class>
       <mj-section padding= "0px" background-color = "#FFFFFF" />
@@ -179,7 +180,7 @@
         </mj-column>
 
       </mj-section>
-      <!-- --------------------Dudas ---------------------- -->
+      <!-- --------------------Tienes alguna duda? ---------------------- -->
       <mj-section >
         <mj-column background-color="#F5F8FF">
           <mj-text font-size="15px" color="#575756" font-weight="700" line-height="100%" align="center" font-family="Roboto">¿Tienes alguna duda?
@@ -189,11 +190,18 @@
       <!-- --------------------Contacto ------------------- -->
       <mj-section background-color="#F5F8FF">
         <!-- Primera columna centrada -->
-        <mj-column >
-          <mj-text align="center">
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/94f7be40-3195-4257-a7d4-35eb44fc9738/172x33.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
-          </mj-text>
-        </mj-column>
+    <mj-column>
+    <mj-text >
+        <img src="assets/img/logo-whatsapp.png" alt="Descripción de la imagen" width="30" height="31" style="vertical-align: middle;" />
+    </mj-text>
+    <mj-column >
+      
+      <mj-text align="left">
+        Escríbenos al <br />Whatsapp 320 889 9898
+      </mj-text>
+    </mj-column>
+    </mj-column>
+
         
         <!-- Segunda columna centrada -->
         <mj-column>
@@ -204,8 +212,9 @@
         
         <!-- Tercera columna centrada -->
         <mj-column>
-          <mj-text align="center">
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7d3318e3-160d-4a4c-b145-0da060738dad/174x36.png" alt="Descripción de la imagen" width="170" height="31" style="vertical-align: middle;" />
+          <mj-text align="center" mj-class = "textoLetraInfo">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
+            info@sistecredito.com
           </mj-text>
         </mj-column>
       </mj-section>
@@ -249,8 +258,8 @@
 
       <!-- --------------------Web y app ------------------- -->
       <!-- <mj-wrapper padding="0% 20% "> -->
-        <mj-section background-color="#F5F8FF" >
-          <mj-column >
+        <mj-section background-color="#F5F8FF"  >
+          <mj-column  width="38%">
             <mj-text align="center" line-height="20px" font-size="16px" >
             <a href="https://www.sistecredito.com/index.html" style="text-decoration: none; color: #00369C; font-weight: 500; font-family:Roboto; line-heigth: 50px">
               www.sistecredito.com
@@ -258,7 +267,7 @@
           </mj-text>
         </mj-text>
           </mj-column>
-          <mj-column >
+          <mj-column  width="38%">
             <mj-text mj-class ="textoLetraNegra"  >
               <a href="https://www.instagram.com/sistecredito/?hl=es" style="text-decoration: none; color: #000000;font-weight: 500;font-family:Roboto;font-size:16px;   ">
               <mj-text  >
@@ -275,15 +284,53 @@
     
 
       <!-- --------------------Terminos y pqrs -------------- -->
+
+
+
+            <!-- --------------------Redes ----------------------- -->
       <mj-section background-color="#F5F8FF">
-        <mj-column>
-          <mj-text>
-            <div style="text-align: center;">
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/faba9a43-f6f8-4153-8a1e-36fa7c888143/283x19.png" alt="Descripción de la imagen" width="282" height="18" />
-            </div>
-          </mj-text>
+        <mj-column width="45%">
+          <mj-table>
+            <tr style="text-align:"center"; padding:"0px";">
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.facebook.com/sistecredito" >
+                 PQRS
+                </a>
+                </mj-text>
+              </th>
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
+                 |
+                </a>
+                </mj-text>
+              </th>
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                  <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.instagram.com/sistecredito/?hl=es">
+                    Términos legales
+                  </a>
+                </mj-text>
+              </th><th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
+                 |
+                </a>
+                </mj-text>
+              </th>
+              <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
+                <mj-text>
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.tiktok.com/discover/sistecredito?lang=es">
+                 Anular suscripción
+                </a>
+                </mj-text>
+              </th>
+            </tr>
+          </mj-table>
         </mj-column>
       </mj-section>
+
   </mj-body>
 
 </mjml>
