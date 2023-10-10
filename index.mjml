@@ -80,13 +80,13 @@
 
       <!-- --------------------Donde y como pagar ? ------------------- -->
       <!-- --------------------titulo ------------------- -->
-    <mj-section css-class="desktop-texto">
-      <mj-column css-class="tituloComoPagar" width="670px" >
+ <mj-section css-class="desktop-texto">
+      <mj-column css-class="tituloComoPagar" width="670px">
         <mj-text color="#ffffff" align="center" font-size="15px">
-         ¿Donde pagar ? ¿Como pagar?</mj-text>
+          ¿Donde pagar?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¿Como pagar?
+        </mj-text>
       </mj-column>
     </mj-section>
-
     <mj-section css-class="mobile-texto">
       <mj-column css-class="tituloComoPagar" width="670px" >
         <mj-text color="#ffffff" align="center" font-size="15px">
