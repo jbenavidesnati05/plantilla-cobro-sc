@@ -150,7 +150,7 @@
         </mj-column>
 
         <mj-column mj-class ="segundaColumna" >
-          <mj-text  mj-class ="textoLetraNegraDesktopa" line-height="50px" >
+          <mj-text  mj-class ="textoLetraNegraDesktop" line-height="50px" >
             <mj-column >
             <mj-text>
               <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
