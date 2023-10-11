@@ -6,10 +6,11 @@
       <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
       <mj-class name="primeraColumna"  width= "300px" background-color="#F3F3F3"></mj-class>
       <mj-class name="segundaColumna"  width= "370px" background-color="#F3F3F3"></mj-class>
-      <mj-class name="textoLetraNegra"  align="center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
+      <mj-class name="textoLetraNegra" align= "center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
       <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
       <mj-class name="textoLetraInfo" align="center" font-size="13px" font-weight="400" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
       <mj-class name="divider" padding="0px" border-color="#DDDDDD" border-width="1px"></mj-class>
+      <mj-class name="widthContacto" width="31%"></mj-class>
       <mj-class name="dividerPie" padding="0px" border-color="#C6D9FF" border-width="1px"></mj-class>
       <mj-section padding= "0px" background-color = "#FFFFFF" />
       <mj-image padding= "0px"/>
@@ -18,7 +19,7 @@
     <!-- border="1px solid #000000"  -->
 
      <mj-breakpoint width="480px" />
-    <mj-breakpoint width="768px" />
+    <!-- <mj-breakpoint width="768px" /> -->
 
     <mj-style>
       .tituloComoPagar {
@@ -28,16 +29,37 @@
           background-color: #002468;
           font-family: "Roboto"
       }
+       .numbers {
+        color: #00369C;
+        font-weight: 700;
+        font-size: 13px;
+        font-family: "Roboto";
+        line-height: 0px
+      }
        @media screen and (max-width: 600px) {
         .desktop-texto {
           display: none !important;
         }
+        .desktop-contacto {
+          display: none !important;
+        }
+  
       }
 
       @media screen and (min-width: 601px) {
         .mobile-texto {
           display: none !important;
         }
+        .mobile-contacto {
+          display: none !important;
+        }
+
+        .alignleftDesktop {
+          background-color: #008010;
+          text-align: center;
+          margin: 0 auto; 
+        }
+ 
       }
     </mj-style>
     
@@ -94,17 +116,16 @@
       </mj-column>
     </mj-section>
 
-
       <!-- INICIO FILA 1  -->
-      <mj-section  text-align="center" >
+      <mj-section   >
         <mj-column mj-class ="primeraColumna" >
-          <mj-text  mj-class ="textoLetraNegra">
+          <mj-text  mj-class ="textoLetraNegra" >
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a57d7225-0e6a-4f5d-af4f-cce8798219a3/36x36.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
             Pago en almacen 
           </mj-text>
         </mj-column>
-        <mj-column mj-class ="segundaColumna" >
-          <mj-text mj-class ="textoLetraNegra"line-height="36px" >
+        <mj-column mj-class ="segundaColumna"  >
+          <mj-text mj-class ="textoLetraNegra"line-height="36px">
             Solo pago en Efectivo
           </mj-text>
         </mj-column>
@@ -193,7 +214,7 @@
 
       <!-- ----------------------------------FOOTER ------------------------------ -->
       <!-- --------------------Anuncio ------------------- -->
-      <mj-section padding-top="30px" padding-bottom="10px">
+      <mj-section padding-top="30px" padding-bottom="10px" >
         <mj-column padding-left="30px" padding-right="30px">
            <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="30px" >* Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo. </mj-text>
         </mj-column>
@@ -206,40 +227,85 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <!-- --------------------Contacto ------------------- -->
+      <!-- --------------------Contacto vista mobile ------------------- -->
 
-      <mj-section background-color="#F5F8FF" >
 
-        <!-- Primera columna centrada -->
-        <mj-column  border="1px solid #000000">
-          <mj-table >
-            <tr width="100%">
-              <td width="-  0%" align="right" >
-                <mj-text mj-class="textoLetraNegra"  >
+      <mj-section background-color="#F5F8FF" css-class="mobile-texto">
+        <mj-column>
+          <mj-table padding-left="23%">
+            <tr>
+              <td align="right">
+                <mj-text align=  "cent" >
                   <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e46ab457-2529-4ac1-ab06-ce27a04726c1/30x31.png" alt="Pago en el almacen" width="36px" height="31" style="vertical-align: middle;" />
                 </mj-text>
-              </td width="70%">
-              <td align="left">
-                <mj-text mj-class="textoLetraNegra" line-height="360px" align="center">
-                  Escríbenos al  Whatsapp <br/> 320 889 9898
+              </td >
+              <td>
+                <mj-text >
+                Escríbenos al  Whatsapp <br/> <span class="numbers">320 889 9898</span>
                 </mj-text>
               </td>
             </tr>
           </mj-table>
         </mj-column>
+        <mj-column>
+          <mj-table padding-left="18%">
+            <tr>
+              <td align="right">
+                <mj-text align=  "cent" >
+                  <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Pago en el almacen" width="45px" height="31" style="vertical-align: middle;" />
+                </mj-text>
+              </td >
+              <td>
+                <mj-text >
+                Comunícate al <br/>  <span class="numbers">(+57) 320 889 9898</span>
+                </mj-text>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+                <mj-column  padding-left="2%" >
+          <mj-text align="center" mj-class = "textoLetraInfo">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="45" height="31" style="vertical-align: middle;" />
+            info@sistecredito.com
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
+      <!-- --------------------  Contacto vista desktop ------------------- -->
+
+      <mj-section background-color="#F5F8FF" css-class="desktop-texto">
+
+        <!-- Primera columna centrada -->
+       <mj-column  >
+          <mj-table>
+            <tr >
+              <td>
+                <mj-text >
+                  <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e46ab457-2529-4ac1-ab06-ce27a04726c1/30x31.png" alt="Pago en el almacen" width="35px" height="31" align="right" style="vertical-align: middle;" />
+                </mj-text>
+              </td>
+              <td align="left">
+                <mj-text >
+                  Escríbenos al  Whatsapp <br/> <span class="numbers">320 889 9898</span>
+                </mj-text>
+              </td>
+            </tr>   
+          </mj-table>
+        </mj-column>
+        
         <!-- Segunda columna centrada -->
-       <mj-column border="1px solid #000000"  >
-          <mj-table >
+       <mj-column  >
+          <mj-table>
             <tr >
               <td>
                 <mj-text >
                   <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Pago en el almacen" width="42px" height="31" align="right" style="vertical-align: middle;" />
+                  
                 </mj-text>
               </td>
-              <td align="left">
-                <mj-text>
-                Comunícate al <br/> (+57) 320 889 9898
+              <td>
+                <mj-text >
+                  Comunícate al <br/>  <span class="numbers">(+57) 320 889 9898</span>
                 </mj-text>
               </td>
             </tr>   
@@ -247,13 +313,20 @@
         </mj-column>
         
         <!-- Tercera columna centrada -->
-        <mj-column border="1px solid #000000" >
+        <mj-column  >
           <mj-text align="center" mj-class = "textoLetraInfo">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
             info@sistecredito.com
           </mj-text>
         </mj-column>
+        
+
       </mj-section>
+
+
+      <!-- -------------------- fin prueba Contacto ------------------- -->
+
+    
 
       <!-- --------------------Divider ----------------------- -->
       <mj-section>
@@ -316,7 +389,6 @@
           </mj-column>
         </mj-section>
        <!-- </mj-wrapper> -->
-
 
     
 
