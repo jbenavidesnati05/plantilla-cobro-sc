@@ -32,6 +32,7 @@
         .desktop-texto {
           display: none !important;
         }
+        
       }
 
       @media screen and (min-width: 601px) {
@@ -39,6 +40,7 @@
           display: none !important;
         }
       }
+
     </mj-style>
     
   </mj-head>
@@ -209,46 +211,63 @@
       <!-- --------------------Contacto ------------------- -->
 
       <mj-section background-color="#F5F8FF" >
+        
+        
+         <mj-column >
+          <mj-text align="center" mj-class = "textoLetraInfo">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e46ab457-2529-4ac1-ab06-ce27a04726c1/30x31.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
+              Escríbenos al  Whatsapp <br/> 320 889 9898
+          </mj-text>
+        </mj-column>
+
+          <mj-column  >
+          <mj-text align="center" mj-class = "textoLetraInfo">
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
+            Comunícate al <br/> (+57) 320 889 9898
+          </mj-text>
+        </mj-column>
+
+        
 
         <!-- Primera columna centrada -->
-        <mj-column  border="1px solid #000000">
+        <!-- <mj-column  border="1px solid #000000">
           <mj-table >
-            <tr width="100%">
-              <td width="-  0%" align="right" >
+            <tr width="100%" mj-class="responsiveContacto"  >
+              <td width="-0%" align="right" >
                 <mj-text mj-class="textoLetraNegra"  >
                   <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e46ab457-2529-4ac1-ab06-ce27a04726c1/30x31.png" alt="Pago en el almacen" width="36px" height="31" style="vertical-align: middle;" />
                 </mj-text>
               </td width="70%">
-              <td align="left">
+              <td>
                 <mj-text mj-class="textoLetraNegra" line-height="360px" align="center">
                   Escríbenos al  Whatsapp <br/> 320 889 9898
                 </mj-text>
               </td>
             </tr>
           </mj-table>
-        </mj-column>
+        </mj-column> -->
 
         <!-- Segunda columna centrada -->
-       <mj-column border="1px solid #000000"  >
+       <!-- <mj-column border="1px solid #000000"  >
           <mj-table >
-            <tr >
+            <tr mj-class="responsiveContacto"  >
               <td>
                 <mj-text >
                   <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Pago en el almacen" width="42px" height="31" align="right" style="vertical-align: middle;" />
                 </mj-text>
               </td>
-              <td align="left">
+              <td>
                 <mj-text>
                 Comunícate al <br/> (+57) 320 889 9898
                 </mj-text>
               </td>
             </tr>   
           </mj-table>
-        </mj-column>
+        </mj-column> -->
         
         <!-- Tercera columna centrada -->
-        <mj-column border="1px solid #000000" >
-          <mj-text align="center" mj-class = "textoLetraInfo">
+        <mj-column  >
+          <mj-text align="center" mj-class="textoLetraInfo" css-class="prueba">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
             info@sistecredito.com
           </mj-text>
