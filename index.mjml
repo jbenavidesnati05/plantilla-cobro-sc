@@ -28,7 +28,8 @@
           border-top-left-radius: 10px;
           border-top-right-radius: 10px;
           background-color: #002468;
-          font-family: "Roboto"
+          height: 50px;
+          font-family: "Roboto";
       }
        .numbers {
         color: #00369C;
@@ -37,6 +38,8 @@
         font-family: "Roboto";
         line-height: 0px
       }
+
+
        @media screen and (max-width: 600px) {
         .desktop-texto {
           display: none !important;
@@ -103,11 +106,11 @@
 
       <!-- --------------------Donde y como pagar ? ------------------- -->
       <!-- --------------------titulo vista desktop ------------------- -->
- <mj-section css-class="desktop-texto">
-      <mj-column css-class="tituloComoPagar" width="670px">
-        <mj-text color="#ffffff" align="left" font-size="15px">
+ <mj-section css-class="desktop-texto" >
+      <mj-column css-class="tituloComoPagar" width="670px" >
+        <mj-text color="#ffffff" align="left" font-size="20px" line-height= "26px" font-weight= "500">
           ¿Donde pagar?
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ¿Como pagar?
         </mj-text>
       </mj-column>
