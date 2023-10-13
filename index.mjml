@@ -7,9 +7,32 @@
       <mj-class name="primeraColumna"  width= "300px" background-color="#F3F3F3"></mj-class>
       <mj-class name="segundaColumna"  width= "370px" background-color="#F3F3F3"></mj-class>
       <mj-class name="textoLetraNegra" align= "center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
+      
+      <mj-class 
+        name="textoLetraContactoDesktop" 
+        align= "center" 
+        font-size="100px" 
+        font-weight="400" 
+        line-height="16px" 
+        font-family="Roboto"
+        color="#00369C"
+        >
+      </mj-class>
+      
       <mj-class name="textoLetraNegraDesktop" align= "left" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
       <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
-      <mj-class name="textoLetraInfo" align="center" font-size="13px" font-weight="400" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
+
+      <mj-class 
+        name="textoLetraInfo" 
+        align="center" 
+        font-size="13px" 
+        font-weight="400" 
+        line-height="16px" 
+        font-family="Roboto" 
+        color="#00369C"
+        >
+      </mj-class>
+
       <mj-class name="divider" padding="0px" border-color="#DDDDDD" border-width="1px"></mj-class>
       <mj-class name="widthContacto" width="31%"></mj-class>
       <mj-class name="dividerPie" padding="0px" border-color="#C6D9FF" border-width="1px"></mj-class>
@@ -106,7 +129,7 @@
 
       <!-- --------------------Donde y como pagar ? ------------------- -->
       <!-- --------------------titulo vista desktop ------------------- -->
- <mj-section css-class="desktop-texto" >
+    <mj-section css-class="desktop-texto" >
       <mj-column css-class="tituloComoPagar" width="670px" >
         <mj-text color="#ffffff" align="left" font-size="20px" line-height= "26px" font-weight= "500">
           ¿Donde pagar?
@@ -197,7 +220,7 @@
         </mj-column>
       </mj-section>
       <!-- FIN FILA 3 -->
-            <mj-section  css-class="desktop-texto">
+      <mj-section  css-class="desktop-texto">
         <mj-column width="670px">
           <mj-divider   mj-class ="divider">
           </mj-divider>
@@ -294,7 +317,8 @@
         </mj-column>
       </mj-section>
       <!-- FIN FILA 3 -->
-            <mj-section css-class="mobile-texto">
+
+      <mj-section css-class="mobile-texto">
         <mj-column width="670px">
           <mj-divider   mj-class ="divider">
           </mj-divider>
@@ -324,17 +348,33 @@
       <!-- --------------------Anuncio ------------------- -->
       <mj-section padding-top="30px" padding-bottom="10px" >
         <mj-column padding-left="30px" padding-right="30px">
-           <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="30px" >* Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo. </mj-text>
+           <mj-text 
+            font-size="16px"
+            color="#2C2A29" 
+            font-weight="400" 
+            align="center" 
+            padding-bottom="30px"
+            font-family= Roboto;
+           >
+           * Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo. </mj-text>
         </mj-column>
 
       </mj-section>
       <!-- --------------------Tienes alguna duda? ---------------------- -->
       <mj-section >
         <mj-column background-color="#F5F8FF">
-          <mj-text font-size="15px" color="#575756" font-weight="700" line-height="100%" align="center" font-family="Roboto">¿Tienes alguna duda?
+          <mj-text 
+          font-size="16px" 
+          color="#2C2A29" 
+          font-weight="700" 
+          line-height="20px" 
+          align="center" 
+          font-family="Roboto"
+          >¿Tienes alguna duda?
           </mj-text>
         </mj-column>
       </mj-section>
+      
       <!-- --------------------Contacto vista mobile ------------------- -->
 
 
@@ -382,7 +422,6 @@
       <!-- --------------------  Contacto vista desktop ------------------- -->
 
       <mj-section background-color="#F5F8FF" css-class="desktop-texto">
-
         <!-- Primera columna centrada -->
        <mj-column  >
           <mj-table>
@@ -408,12 +447,11 @@
               <td>
                 <mj-text >
                   <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Pago en el almacen" width="42px" height="31" align="right" style="vertical-align: middle;" />
-                  
                 </mj-text>
               </td>
               <td>
                 <mj-text >
-                  Comunícate al <br/>  <span class="numbers">(+57) 320 889 9898</span>
+                  <span class="textoLetraContactoDesktop"> Comunícate al</span><br/><span class="numbers">(+57) 320 889 9898</span>
                 </mj-text>
               </td>
             </tr>   
@@ -427,14 +465,10 @@
             info@sistecredito.com
           </mj-text>
         </mj-column>
-        
-
       </mj-section>
 
 
       <!-- -------------------- fin prueba Contacto ------------------- -->
-
-    
 
       <!-- --------------------Divider ----------------------- -->
       <mj-section>
