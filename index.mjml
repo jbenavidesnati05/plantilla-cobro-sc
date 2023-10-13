@@ -1,12 +1,12 @@
-<mjml font-family="Roboto">
+<mjml font-family="Open Sans">
   <mj-head>
 
     <mj-attributes>
       <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
       <mj-class name="hello-text" font-size="13px" padding-left="0px"></mj-class>
-      <mj-class name="primeraColumna"  width= "300px" background-color="#F3F3F3"></mj-class>
-      <mj-class name="segundaColumna"  width= "370px" background-color="#F3F3F3"></mj-class>
-      <mj-class name="textoLetraNegra" align= "center" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
+      <mj-class name="primeraColumna"  width= "280px" background-color="#F3F3F3"></mj-class>
+      <mj-class name="segundaColumna"  width= "390px" background-color="#F3F3F3"></mj-class>
+      <mj-class name="textoLetraNegra" align= "center" font-size="16px" font-weight="500" line-height="22px" font-family="Open Sans" ></mj-class>
       
       <mj-class 
         name="textoLetraContactoDesktop" 
@@ -14,13 +14,13 @@
         font-size="100px" 
         font-weight="400" 
         line-height="16px" 
-        font-family="Roboto"
+        font-family="Open Sans"
         color="#00369C"
         >
       </mj-class>
       
-      <mj-class name="textoLetraNegraDesktop" align= "left" font-size="16px" font-weight="500" line-height="22px" font-family="Roboto" ></mj-class>
-      <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Roboto" color="#00369C"></mj-class>
+      <mj-class name="textoLetraNegraDesktop" align= "left" font-size="16px" font-weight="500" line-height="22px" font-family="Open Sans" ></mj-class>
+      <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Open Sans" color="#00369C"></mj-class>
 
       <mj-class 
         name="textoLetraInfo" 
@@ -28,7 +28,7 @@
         font-size="13px" 
         font-weight="400" 
         line-height="16px" 
-        font-family="Roboto" 
+        font-family="Open Sans" 
         color="#00369C"
         >
       </mj-class>
@@ -40,7 +40,7 @@
       <mj-image padding= "0px"/>
     </mj-attributes>
 
-    <!-- border="1px solid #000000"  -->
+    <!--   -->
 
      <mj-breakpoint width="480px" />
     <!-- <mj-breakpoint width="768px" /> -->
@@ -52,13 +52,13 @@
           border-top-right-radius: 10px;
           background-color: #002468;
           height: 50px;
-          font-family: "Roboto";
+          font-family: "Open Sans";
       }
        .numbers {
         color: #00369C;
         font-weight: 700;
         font-size: 13px;
-        font-family: "Roboto";
+        font-family: "Open Sans";
         line-height: 0px
       }
 
@@ -180,18 +180,38 @@
         </mj-column>
 
         <mj-column mj-class ="segundaColumna" >
-          <mj-text  mj-class ="textoLetraNegraDesktop" line-height="50px" >
-            <mj-column >
-            <mj-text>
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-            Botón Bancolombia
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Roboto"style="vertical-align: middle;" />
-            Débito PSE
-            </mj-text>
-            </mj-column>
-      </mj-section>
-      <!-- FIN FILA 2  -->
+            <mj-text  mj-class ="textoLetraNegraDesktop" line-height="50px" >
 
+              <mj-column >
+                <mj-text >
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" 
+                  alt="Boton Bancolombia" 
+                  width="24" height="31" 
+                  style="vertical-align: middle;" />
+                  Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </mj-text>
+              </mj-column>
+
+              <mj-column >
+                <mj-text >
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" 
+                  alt="Boton Bancolombia" 
+                  width="28"
+                  height="31" 
+                  padding.left="10px" 
+                  font-family="Open Sans"
+                  style="vertical-align: middle;"
+                  />
+                  Débito PSE
+                </mj-text>
+              </mj-column>
+
+            </mj-text>
+        </mj-column>
+        
+      </mj-section>
+
+      <!-- FIN FILA 2  -->
       <mj-section  css-class="desktop-texto">
         <mj-column width="670px">
           <mj-divider   mj-class ="divider">
@@ -212,8 +232,8 @@
             <mj-column >
               <mj-text>
                 <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-              Botón Bancolombia
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Roboto"style="vertical-align: middle;" />
+              Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Open Sans"style="vertical-align: middle;" />
               Débito PSE
               </mj-text>
             </mj-column>
@@ -241,7 +261,7 @@
                 <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a5e7c3e1-adc9-466c-9a53-4196442cf6d7/99x66.png"  align= "left" alt="Efecty" width="95" height="31" style="vertical-align: middle;" />
               </mj-text>
         </mj-column>
-    </mj-section>
+      </mj-section>
           <!-- FIN FILA 4 -->
 
       <!-- -------------------- inicio tabla mobile ------------------- -->
@@ -282,7 +302,7 @@
             <mj-text>
               <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
             Botón Bancolombia
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Roboto"style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Open Sans"style="vertical-align: middle;" />
             Débito PSE
             </mj-text>
             </mj-column>
@@ -310,7 +330,7 @@
               <mj-text>
                 <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
               Botón Bancolombia
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Roboto"style="vertical-align: middle;" />
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Open Sans"style="vertical-align: middle;" />
               Débito PSE
               </mj-text>
             </mj-column>
@@ -354,9 +374,9 @@
             font-weight="400" 
             align="center" 
             padding-bottom="30px"
-            font-family= Roboto;
+            font-family= "Open Sans"
            >
-           * Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo. </mj-text>
+           * Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo.</mj-text>
         </mj-column>
 
       </mj-section>
@@ -369,7 +389,7 @@
           font-weight="700" 
           line-height="20px" 
           align="center" 
-          font-family="Roboto"
+          font-family="Open Sans"
           >¿Tienes alguna duda?
           </mj-text>
         </mj-column>
@@ -423,7 +443,7 @@
 
       <mj-section background-color="#F5F8FF" css-class="desktop-texto">
         <!-- Primera columna centrada -->
-       <mj-column  >
+       <mj-column  width="230px" >
           <mj-table>
             <tr >
               <td>
@@ -441,16 +461,16 @@
         </mj-column>
         
         <!-- Segunda columna centrada -->
-       <mj-column  >
-          <mj-table>
+       <mj-column  width="210px"  >
+          <mj-table >
             <tr >
               <td>
-                <mj-text >
+                <mj-text  >
                   <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/6fa40f2e-cf65-4ad2-903a-3d49b9a2523e/36x36.png" alt="Pago en el almacen" width="42px" height="31" align="right" style="vertical-align: middle;" />
                 </mj-text>
               </td>
               <td>
-                <mj-text >
+                <mj-text  >
                   <span class="textoLetraContactoDesktop"> Comunícate al</span><br/><span class="numbers">(+57) 320 889 9898</span>
                 </mj-text>
               </td>
@@ -459,7 +479,7 @@
         </mj-column>
         
         <!-- Tercera columna centrada -->
-        <mj-column  >
+        <mj-column  width="230px" >
           <mj-text align="center" mj-class = "textoLetraInfo">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
             info@sistecredito.com
@@ -479,7 +499,7 @@
       </mj-section>
       <!-- --------------------Redes ----------------------- -->
       <mj-section background-color="#F5F8FF">
-        <mj-column width="45%">
+        <mj-column width="52%">
           <mj-table>
             <tr style="text-align:"center"; padding:"0px";">
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
@@ -511,17 +531,17 @@
       <!-- --------------------Web y app ------------------- -->
       <!-- <mj-wrapper padding="0% 20% "> -->
         <mj-section background-color="#F5F8FF"  >
-          <mj-column  width="38%">
+          <mj-column  width="30%">
             <mj-text align="center" line-height="20px" font-size="16px" >
-            <a href="https://www.sistecredito.com/index.html" style="text-decoration: none; color: #00369C; font-weight: 500; font-family:Roboto; line-heigth: 50px">
+            <a href="https://www.sistecredito.com/index.html" style="text-decoration: none; color: #00369C; font-weight: 500; font-family:Open Sans; line-heigth: 50px">
               www.sistecredito.com
             </a>
           </mj-text>
         </mj-text>
           </mj-column>
-          <mj-column  width="38%">
+          <mj-column  width="40%">
             <mj-text mj-class ="textoLetraNegra"  >
-              <a href="https://www.instagram.com/sistecredito/?hl=es" style="text-decoration: none; color: #000000;font-weight: 500;font-family:Roboto;font-size:16px;   ">
+              <a href="https://www.instagram.com/sistecredito/?hl=es" style="text-decoration: none; color: #000000;font-weight: 500;font-family:Open Sans;font-size:16px;   ">
               <mj-text  >
                 Descarga nuestra App
               </mj-text>
@@ -536,43 +556,40 @@
 
       <!-- --------------------Terminos y pqrs -------------- -->
 
-
-
-            <!-- --------------------Redes ----------------------- -->
       <mj-section background-color="#F5F8FF">
-        <mj-column width="45%">
+        <mj-column width="45%" >
           <mj-table>
             <tr style="text-align:"center"; padding:"0px";">
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.facebook.com/sistecredito" >
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Open Sans; line-heigth: 50px" href="https://www.facebook.com/sistecredito" >
                  PQRS
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Open Sans; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
                  |
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                  <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.instagram.com/sistecredito/?hl=es">
+                  <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Open Sans; line-heigth: 50px" href="https://www.instagram.com/sistecredito/?hl=es">
                     Términos legales
                   </a>
                 </mj-text>
               </th><th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Open Sans; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
                  |
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Roboto; line-heigth: 50px" href="https://www.tiktok.com/discover/sistecredito?lang=es">
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Open Sans; line-heigth: 50px" href="https://www.tiktok.com/discover/sistecredito?lang=es">
                  Anular suscripción
                 </a>
                 </mj-text>
