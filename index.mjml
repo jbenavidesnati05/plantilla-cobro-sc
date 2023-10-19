@@ -100,7 +100,7 @@
         <mj-column>
           <mj-text>
             <div style="text-align: center;">
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/dad3a440-da8d-471f-aa71-c91843dd738b/152x35.png" alt="Descripción de la imagen" width="28%" height="18" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/80a057b2-f072-4aad-93ab-43e3be0d75fe/2224x512.png" alt="Descripción de la imagen" width="28%" height="18" />
             </div>
           </mj-text>
         </mj-column>
@@ -133,7 +133,7 @@
       <mj-column css-class="tituloComoPagar" width="670px" >
         <mj-text color="#ffffff" align="left" font-size="20px" line-height= "26px" font-weight= "500">
           ¿Donde pagar?
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ¿Como pagar?
         </mj-text>
       </mj-column>
@@ -152,13 +152,14 @@
       <mj-section  css-class="desktop-texto" >
         <mj-column mj-class ="primeraColumna" >
           <mj-text  mj-class ="textoLetraNegraDesktop" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a57d7225-0e6a-4f5d-af4f-cce8798219a3/36x36.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
-            Pago en almacen 
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/97375049-9f60-496b-b17f-a0ec67a83fcf/1048x144.png"  alt="Pago en el almacen" width="262px" height="31" style="vertical-align: middle;" />
+            <!-- Pago en almacen  -->
           </mj-text>
         </mj-column>
         <mj-column mj-class ="segundaColumna"  >
           <mj-text mj-class ="textoLetraNegraDesktop"line-height="36px">
-            Solo pago en Efectivo
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bec92a0d-5085-4324-91f6-5a9644bbd5ae/634x62.png"  alt="Pago en el almacen" width="160px" height="31" style="vertical-align: middle;" />
+            <!-- Solo pago en Efectivo -->
           </mj-text>
         </mj-column>
       </mj-section>
@@ -175,7 +176,7 @@
       <mj-section  css-class="desktop-texto" >
         <mj-column mj-class ="primeraColumna"  >
           <mj-text mj-class ="textoLetraAzul" line-height="50px" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bd77ce7e-e261-45e7-99ac-cbe6b8e485a6/257x49.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/41d64ea2-6a97-46b6-baee-5ae4bee49070/1028x192.png" alt="Sitio web sistecredito" width="275" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
@@ -184,25 +185,24 @@
 
               <mj-column >
                 <mj-text >
-                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" 
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7d6b3bd0-814d-4185-b100-b2ff55d4c106/480x120.png" 
                   alt="Boton Bancolombia" 
-                  width="24" height="31" 
+                  width="180" height="31" 
                   style="vertical-align: middle;" />
-                  Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <!-- Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                 </mj-text>
               </mj-column>
 
               <mj-column >
                 <mj-text >
-                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" 
-                  alt="Boton Bancolombia" 
-                  width="28"
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/f0f61c92-572b-4b1c-ac04-2ef9dfec6533/488x160.png" 
+                  width="130"
                   height="31" 
                   padding.left="10px" 
                   font-family="Open Sans"
                   style="vertical-align: middle;"
                   />
-                  Débito PSE
+                  <!-- Débito PSE -->
                 </mj-text>
               </mj-column>
 
@@ -223,20 +223,37 @@
       <mj-section  css-class="desktop-texto" >
          <mj-column mj-class ="primeraColumna"  >
           <mj-text mj-class ="textoLetraAzul" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/ae8cce7d-1563-402d-b757-fb2a5dbfba9d/226x49.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/b4516f9b-61e3-4f09-8204-15745a93d0fc/904x193.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
           </mj-text>
         </mj-column>
 
-        <mj-column mj-class ="segundaColumna" >
-          <mj-text mj-class ="textoLetraNegraDesktop" line-height="57px"  >
-            <mj-column >
-              <mj-text>
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-              Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Open Sans"style="vertical-align: middle;" />
-              Débito PSE
-              </mj-text>
-            </mj-column>
+         <mj-column mj-class ="segundaColumna" >
+            <mj-text  mj-class ="textoLetraNegraDesktop" line-height="50px" >
+
+              <mj-column >
+                <mj-text >
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7d6b3bd0-814d-4185-b100-b2ff55d4c106/480x120.png" 
+                  alt="Boton Bancolombia" 
+                  width="180" height="31" 
+                  style="vertical-align: middle;" />
+                  <!-- Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                </mj-text>
+              </mj-column>
+
+              <mj-column >
+                <mj-text >
+                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/f0f61c92-572b-4b1c-ac04-2ef9dfec6533/488x160.png" 
+                  width="130"
+                  height="31" 
+                  padding.left="10px" 
+                  font-family="Open Sans"
+                  style="vertical-align: middle;"
+                  />
+                  <!-- Débito PSE -->
+                </mj-text>
+              </mj-column>
+
+            </mj-text>
         </mj-column>
       </mj-section>
       <!-- FIN FILA 3 -->
@@ -251,14 +268,14 @@
       <mj-section  css-class="desktop-texto" >
         <mj-column mj-class ="primeraColumna" >
           <mj-text  mj-class ="textoLetraNegraDesktop" line-height="64px" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bf428b0f-5d99-4da8-b5e1-2fe961c5a09c/36x37.png" alt="Otros medios de pago" width="24" height="31" style="vertical-align: middle;" />
-            Otros medios de pago
+            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/baab3ece-623b-4594-96d5-ea8f7b9c3ed3/1164x261.png" alt="Otros medios de pago" width="260px" height="31" style="vertical-align: middle;" />
+            <!-- Otros medios de pago -->
           </mj-text>
         </mj-column>
         <mj-column mj-class ="segundaColumna">
               <mj-text align="center" >
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/99f2e839-1924-4f64-a47b-b8473e7582c2/175x50.png" align= "left" alt="Efecty" width="150" height="31" style="vertical-align: top;" />
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a5e7c3e1-adc9-466c-9a53-4196442cf6d7/99x66.png"  align= "left" alt="Efecty" width="95" height="31" style="vertical-align: middle;" />
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/633c44cd-9779-40c6-99fd-896479104a7d/352x197.png" align= "left" alt="Efecty" width="100px" height="31" style="vertical-align: top;" />
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/8d2e8909-26f3-4d03-843c-a64ef2e94d05/396x261.png"  align= "center" alt="Efecty" width="95px" height="31" style="vertical-align: middle;" />
               </mj-text>
         </mj-column>
       </mj-section>
@@ -300,10 +317,10 @@
           <mj-text  mj-class ="textoLetraNegra" line-height="50px" >
             <mj-column >
             <mj-text>
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c9e96f74-fe80-4c66-a961-a4ee5d858c6b/21x21.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-            Botón Bancolombia
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/c851beec-f123-4c86-88f1-c1423b1d25a0/24x25.png" alt="Boton Bancolombia" width="28" height="31" font-family="Open Sans"style="vertical-align: middle;" />
-            Débito PSE
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7d6b3bd0-814d-4185-b100-b2ff55d4c106/480x120.png" alt="Boton Bancolombia" width="162" height="31" style="vertical-align: middle;" />
+            <!-- Botón Bancolombia -->
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/f0f61c92-572b-4b1c-ac04-2ef9dfec6533/488x160.png" alt="Boton Bancolombia" width="122" height="31" font-family="Open Sans"style="vertical-align: middle;" />
+            <!-- Débito PSE -->
             </mj-text>
             </mj-column>
       </mj-section>
@@ -356,6 +373,7 @@
         <mj-column mj-class ="segundaColumna">
               <mj-text align="center" >
                 <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/99f2e839-1924-4f64-a47b-b8473e7582c2/175x50.png" alt="Efecty" width="150" height="31" style="vertical-align: top;" />
+                
                 <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/a5e7c3e1-adc9-466c-9a53-4196442cf6d7/99x66.png" alt="Efecty" width="95" height="31" style="vertical-align: middle;" />
               </mj-text>
         </mj-column>
@@ -415,6 +433,7 @@
             </tr>
           </mj-table>
         </mj-column>
+
         <mj-column>
           <mj-table padding-left="17%">
             <tr>
@@ -431,12 +450,23 @@
             </tr>
           </mj-table>
         </mj-column>
-                <mj-column  padding-left="4%" >
-          <mj-text align="center" mj-class = "textoLetraInfo">
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Descripción de la imagen" width="45" height="31" style="vertical-align: middle;" />
-            info@sistecredito.com
-          </mj-text>
+        <mj-column>
+          <mj-table padding-left="21%" mj-class = "textoLetraInfo" >
+            <tr>
+              <td align="right">
+                <mj-text align=  "cent" >
+                  <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5d99fb5c-e598-4c94-90a3-7b7a20b02a07/35x36.png" alt="Pago en el almacen" width="45px" height="31" style="vertical-align: middle;" />
+                </mj-text>
+              </td >
+              <td>
+                <mj-text >
+                info@sistecredito.com
+                </mj-text>
+              </td>
+            </tr>
+          </mj-table>
         </mj-column>
+
       </mj-section>
 
       <!-- --------------------  Contacto vista desktop ------------------- -->
