@@ -1,4 +1,5 @@
-<mjml font-family="roboto">
+<mjml>
+
   <mj-head>
 
     <mj-attributes>
@@ -29,7 +30,15 @@
         >
       </mj-class>
       
-      <mj-class name="textoLetraNegraDesktop" align= "left" font-size="16px" font-weight="500" line-height="22px" font-family="roboto" ></mj-class>
+      <mj-class 
+        name="textoLetraNegraDesktop" 
+        align= "left" 
+        font-size="16px" 
+        font-weight="500" 
+        line-height="22px" 
+        font-family="roboto" 
+        >
+      </mj-class>
       <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="roboto" color="#00369C"></mj-class>
 
       <mj-class 
@@ -50,8 +59,8 @@
       <mj-image padding= "0px"/>
     </mj-attributes>
 
-     <!-- <mj-breakpoint width="480px" /> -->
-    <mj-breakpoint width="768px" />
+<mj-breakpoint width="480px" />
+<!-- <mj-breakpoint width="749px" /> -->
 
     <mj-style>
       .tituloComoPagar {
@@ -114,7 +123,7 @@
   <mj-body>
     <mj-container padding-left="0px" padding-right="0px" width= "750px">
 
-     <!-- --------------------Logo sistecredito ------------------- -->
+<!-- --------------------Logo sistecredito ------------------- -->
       <mj-section padding = "15px 0px 10px 0px ">
         <mj-column>
           <mj-text>
@@ -125,7 +134,7 @@
         </mj-column>
       </mj-section>
 
-    <!-- --------------------Hola ------------------- -->
+<!-- --------------------Hola ------------------- -->
       <mj-section background-url="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/00303c32-0b43-4963-b4d8-5f5d3c711bd8/750x316.png" background-size="100% 100%" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
         <mj-column>
           <mj-text align="left" 
@@ -153,22 +162,22 @@
         </mj-column>
       </mj-section>
 
-      <!-- --------------------Recordatorio ------------------- -->
-<mj-section>
-  <mj-column >
-    <mj-text 
-      padding-top="30px"
-      font-size="24px" 
-      color="#2C2A29" 
-      font-weight="700" 
-      line-height="30px" 
-      align="center" 
-      font-family="roboto"
-    >
-      Tenemos un recordatorio para ti
-    </mj-text>
-  </mj-column>
-</mj-section>
+<!-- --------------------Recordatorio ------------------- -->
+        <mj-section>
+          <mj-column >
+            <mj-text 
+              padding-top="30px"
+              font-size="24px" 
+              color="#2C2A29" 
+              font-weight="700" 
+              line-height="30px" 
+              align="center" 
+              font-family="roboto"
+            >
+              Tenemos un recordatorio para ti
+            </mj-text>
+          </mj-column>
+        </mj-section>
 
 
       <mj-section >
@@ -180,8 +189,9 @@
           font-size="16px" 
           color="#575756" 
           font-weight="400" 
-          align="justify"
+          align="center"
           line-height= "22px"
+          font-family="roboto"
           >
           Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong><span style="color: #CF3339;">saldo en mora</span></strong> de <strong>{{diasmora}}</strong> dias</mj-text>
 
@@ -191,11 +201,11 @@
 
 
 
-      <!-- --------------------Donde y como pagar ? ------------------- -->
+<!-- --------------------Donde y como pagar ? ------------------- -->
 
-      <!-- --------------------titulo vista desktop ------------------- -->
+<!-- --------------------titulo vista desktop ------------------- -->
     <mj-section css-class="desktop-texto" >
-      <mj-column css-class="tituloComoPagar" width="670px" >
+      <mj-column css-class="tituloComoPagar" width="89.3%"  >
         <mj-text color="#ffffff" align="left" font-size="20px" line-height= "26px" font-weight= "500">
           ¿Dónde pagar?
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -204,155 +214,208 @@
       </mj-column>
     </mj-section>
 
-      <!-- --------------------titulo vista mobile ------------------- -->
-    <mj-section css-class="mobile-texto">
-      <mj-column css-class="tituloComoPagar" width="326px"  >
-        <mj-text color="#ffffff" align="center" font-size="18px" line-height= "26px" font-weight= "500">
-        ¿Dónde y cómo pagar?</mj-text>
+<!-- --------------------titulo vista mobile ------------------- -->
+      
+    <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
+      <mj-column css-class="tituloComoPagar" >
+        <mj-text 
+        color="#ffffff" 
+        align="center" 
+        font-size="18px" 
+        line-height= "26px" 
+        font-weight= "500"
+        >
+        ¿Dónde y cómo pagar?
+        </mj-text>
       </mj-column>
     </mj-section>
 
-      <!-- --------------------tabla desktop ------------------- -->
-      <!-- INICIO FILA 1  -->
-      <mj-section  css-class="desktop-texto"  >
-        <mj-column mj-class ="primeraColumna" >
-          <mj-text  mj-class ="textoLetraNegraDesktop" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/fa2d4b17-20c0-48ee-9f34-eacdb01c50be/144x144.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
-            Pago en el almacén
-          </mj-text>
-        </mj-column>
-        <mj-column mj-class ="segundaColumna"  >
-          <mj-text mj-class ="textoLetraNegraDesktop"line-height="36px">
-            Solo pago en Efectivo
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- FIN FILA 1  -->
+<!--  INICIO TABLA COMO TABLA  -->
 
-      <mj-section  css-class="desktop-texto">
-        <mj-column width="670px">
-          <mj-divider   mj-class ="divider">
-          </mj-divider>
-        </mj-column>
-      </mj-section>
+<!-- --------------------tabla desktop ------------------- -->
 
-      <!-- INCIO FILA 2  -->
-      <mj-section  css-class="desktop-texto" >
-        <mj-column mj-class ="primeraColumna"  >
-          <mj-text mj-class ="textoLetraAzul" line-height="50px" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/41d64ea2-6a97-46b6-baee-5ae4bee49070/1028x192.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
-          </mj-text>
-        </mj-column>
-
-        <mj-column mj-class ="segundaColumna" >
-            <mj-text  mj-class ="textoLetraNegraDesktop" line-height="50px" >
-
-              <mj-column >
-                <mj-text >
-                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" 
-                  alt="Boton Bancolombia" 
-                  width="24" height="31" 
-                  style="vertical-align: middle;" />
-                  Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </mj-text>
-              </mj-column>
-
-              <mj-column >
-                <mj-text >
-                  <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" 
-                  alt="Boton Bancolombia" 
-                  width="28"
-                  height="31" 
-                  padding.left="10px" 
-                  font-family="roboto"
-                  style="vertical-align: middle;"
-                  />
-                  Débito PSE
-                </mj-text>
-              </mj-column>
-
-            </mj-text>
-        </mj-column>
-        
-      </mj-section>
-
-      <!-- FIN FILA 2  -->
-      <mj-section  css-class="desktop-texto">
-        <mj-column width="670px">
-          <mj-divider   mj-class ="divider">
-          </mj-divider>
+<!-- INICIO FILA 1 TABLA COMO TABLA -->
+      <mj-section css-class="desktop-texto"  >
+        <mj-column width="89.3%" background-color="#F3F3F3" >
+          <mj-table mj-class ="textoLetraNegraDesktop"  >
+                  <tr>
+                    <td  width = "49%">
+                      <mj-text >
+                        <img  src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/fa2d4b17-20c0-48ee-9f34-eacdb01c50be/144x144.png" 
+                        alt="Pago en el almacen" 
+                        width="45px" 
+                        height="31" 
+                        style="vertical-align: middle;" />
+                      </mj-text>
+                      <mj-text >
+                      Pago en el almacén
+                      </mj-text>
+                    </td>
+                    <td>
+                      <mj-text >
+                      Solo pago en Efectivo
+                      </mj-text>
+                    </td>
+                  </tr>
+                </mj-table>
         </mj-column>
       </mj-section>
-
-      <!-- INCIO FILA 3 -->
-      <mj-section  css-class="desktop-texto" >
-         <mj-column mj-class ="primeraColumna"  >
-          <mj-text mj-class ="textoLetraAzul" line-height="57px" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/b4516f9b-61e3-4f09-8204-15745a93d0fc/904x193.png" alt="Sitio web sistecredito" width="262px" height="31" style="vertical-align: middle;" />
-          </mj-text>
-        </mj-column>
-
-        <mj-column mj-class ="segundaColumna" >
-          <mj-text mj-class ="textoLetraNegraDesktop" line-height="57px"  >
-            <mj-column >
-              <mj-text>
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-                Botón Bancolombia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="roboto"style="vertical-align: middle;" />
-                Débito PSE
-              </mj-text>
-            </mj-column>
-        </mj-column>
-      </mj-section>
-      <!-- FIN FILA 3 -->
-      <mj-section  css-class="desktop-texto">
-        <mj-column width="670px">
-          <mj-divider   mj-class ="divider">
-          </mj-divider>
-        </mj-column>
-      </mj-section>
-
-      <!-- INCIO FILA 4 -->
-      <mj-section  css-class="desktop-texto" >
       
-        <mj-column mj-class ="primeraColumna"  >
-          <mj-text  mj-class ="textoLetraNegraDesktop" line-height="64px" >
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bf428b0f-5d99-4da8-b5e1-2fe961c5a09c/36x37.png" 
-            alt="Otros medios de pago" 
-            width="24" 
-            height="31" 
-            style="vertical-align: middle;"
-            />
-            Otros medios de pago
-          </mj-text>
+<!-- FIN FILA 1  -->
+
+      <mj-section  css-class="desktop-texto">
+        <mj-column width="89.3%">
+          <mj-divider   mj-class ="divider">
+          </mj-divider>
         </mj-column>
-         <mj-column mj-class ="segundaColumna"  >
-              <mj-text align="center" >
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/633c44cd-9779-40c6-99fd-896479104a7d/352x197.png" align= "left"
-                alt="Efecty"
-                width="99" 
-                height="31" 
-                style="vertical-align: top;" 
-                />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/8d2e8909-26f3-4d03-843c-a64ef2e94d05/396x261.png"  
-                align= "center"
-                alt="Gana" 
-                width="95" 
-                height="31" 
-                style="vertical-align: middle;" 
-                />
-              </mj-text>
-        </mj-column>
-        
       </mj-section>
-          <!-- FIN FILA 4 -->
 
-      <!-- -------------------- fin tabla desktop ------------------- -->
+<!-- INICIO FILA 2 TABLA COMO TABLA -->
 
-      <!-- -------------------- Inicio tabla mobile ------------------- -->
-      <!-- INICIO FILA 1  -->
-      <mj-section  css-class="mobile-texto" >
+     <mj-section css-class="desktop-texto"  >
+        <mj-column width="89.3%" background-color="#F3F3F3">
+          <mj-table mj-class ="textoLetraNegraDesktop"  >
+                  <tr>
+                    <td >
+                       <mj-text >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/41d64ea2-6a97-46b6-baee-5ae4bee49070/1028x192.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
+                      </mj-text>
+                      </mj-text>
+                    </td>
+                    <td >
+                      <mj-text >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" 
+                        alt="Boton Bancolombia" 
+                        width="24" 
+                        height="31" 
+                        style="vertical-align: middle;" /> 
+                        Botón Bancolombia
+                      </mj-text>
+                    </td>
+                    <td >
+                      <mj-text >
+                         <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" 
+                        alt="Boton Bancolombia" 
+                        width="28"
+                        height="31" 
+                        font-family="roboto"
+                        style="vertical-align: middle;"
+                        />
+                          Débito PSE
+                      </mj-text>
+                    </td>
+                  </tr>
+                </mj-table>
+        </mj-column>
+      </mj-section>
+<!-- FIN FILA 2  -->
+
+      <mj-section  css-class="desktop-texto">
+        <mj-column width="89.3%">
+          <mj-divider   mj-class ="divider">
+          </mj-divider>
+        </mj-column>
+      </mj-section>
+
+<!-- INICIO FILA 3 TABLA COMO TABLA -->
+      <mj-section css-class="desktop-texto"  >
+        <mj-column width="89.3%" background-color="#F3F3F3">
+          <mj-table mj-class ="textoLetraNegraDesktop"  >
+                  <tr>
+                    <td >
+                       <mj-text >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/b4516f9b-61e3-4f09-8204-15745a93d0fc/904x193.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
+                      </mj-text>
+                      </mj-text>
+                    </td>
+                    <td >
+                      <mj-text >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" 
+                        alt="Boton Bancolombia" 
+                        width="24" 
+                        height="31" 
+                        style="vertical-align: middle;" /> 
+                        Botón Bancolombia
+                      </mj-text>
+                    </td>
+                    <td >
+                      <mj-text >
+                         <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" 
+                        alt="Boton Bancolombia" 
+                        width="28"
+                        height="31" 
+                        font-family="roboto"
+                        style="vertical-align: middle;"
+                        />
+                          Débito PSE
+                      </mj-text>
+                    </td>
+                  </tr>
+                </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section  css-class="desktop-texto">
+        <mj-column width="89.3%">
+          <mj-divider   mj-class ="divider">
+          </mj-divider>
+        </mj-column>
+      </mj-section>
+
+<!-- FIN FILA 3  -->
+
+<!-- INICIO FILA 4 TABLA COMO TABLA -->
+
+      <mj-section css-class="desktop-texto"  >
+        <mj-column width="89.3%" background-color="#F3F3F3">
+          <mj-table mj-class ="textoLetraNegraDesktop"  >
+                  <tr>
+                    <td >
+                      <mj-text  mj-class ="textoLetraNegraDesktop" line-height="64px" >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bf428b0f-5d99-4da8-b5e1-2fe961c5a09c/36x37.png" 
+                        alt="Otros medios de pago" 
+                        width="24" 
+                        height="31" 
+                        style="vertical-align: middle;"
+                        />
+                        Otros medios de pago
+                      </mj-text>
+                    </td>
+                    <td  width="30%">
+                      <mj-text >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/633c44cd-9779-40c6-99fd-896479104a7d/352x197.png" align= "left"
+                        alt="Efecty"
+                        width="99" 
+                        height="31" 
+                        style="vertical-align: top;" 
+                        />
+                      </mj-text>
+                    </td>
+                    <td width="20%">
+                      <mj-text >
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/8d2e8909-26f3-4d03-843c-a64ef2e94d05/396x261.png"  
+                          align= "center"
+                          alt="Gana" 
+                          width="95" 
+                          height="31" 
+                          style="vertical-align: middle;" 
+                          />
+                      </mj-text>
+                    </td>
+                  </tr>
+                </mj-table>
+        </mj-column>
+      </mj-section>
+<!-- FIN FILA 4 -->
+
+<!-- -------------------- fin tabla desktop ------------------- -->
+
+<!-- FIN TABLA COMO TABLA  -->
+
+
+<!-- -------------------- Inicio tabla mobile ------------------- -->
+<!-- INICIO FILA 1  -->
+      <mj-section  css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column mj-class ="primeraColumna" >
           <mj-text  mj-class ="textoLetraNegra" >
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/fa2d4b17-20c0-48ee-9f34-eacdb01c50be/144x144.png"  alt="Pago en el almacen" width="36Px" height="31" style="vertical-align: middle;" />
@@ -365,17 +428,17 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <!-- FIN FILA 1  -->
+<!-- FIN FILA 1  -->
 
-      <mj-section css-class="mobile-texto">
+      <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column width="44%">
           <mj-divider   mj-class ="divider">
           </mj-divider>
         </mj-column>
       </mj-section>
 
-      <!-- INCIO FILA 2  -->
-      <mj-section css-class="mobile-texto">
+<!-- INCIO FILA 2  -->
+      <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column mj-class ="primeraColumna"  >
           <mj-text mj-class ="textoLetraAzul" line-height="50px" >
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/41d64ea2-6a97-46b6-baee-5ae4bee49070/1028x192.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
@@ -387,23 +450,24 @@
             <mj-column >
             <mj-text>
               <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-            Botón Bancolombia
+              Botón Bancolombia
               <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="roboto"style="vertical-align: middle;" />
-            Débito PSE
+              Débito PSE
             </mj-text>
             </mj-column>
       </mj-section>
-      <!-- FIN FILA 2  -->
+<!-- FIN FILA 2  -->
 
-      <mj-section css-class="mobile-texto">
+      <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column width="44%">
           <mj-divider   mj-class ="divider">
           </mj-divider>
         </mj-column>
       </mj-section>
 
-      <!-- INCIO FILA 3 -->
-      <mj-section css-class="mobile-texto">
+
+<!-- INCIO FILA 3 -->
+      <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
          <mj-column mj-class ="primeraColumna"  >
           <mj-text mj-class ="textoLetraAzul" >
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/b4516f9b-61e3-4f09-8204-15745a93d0fc/904x193.png" alt="Sitio web sistecredito" width="262" height="31" style="vertical-align: middle;" />
@@ -422,17 +486,19 @@
             </mj-column>
         </mj-column>
       </mj-section>
-      <!-- FIN FILA 3 -->
+<!-- FIN FILA 3 -->
 
-      <mj-section css-class="mobile-texto">
+
+
+      <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column width="44%">
           <mj-divider   mj-class ="divider">
           </mj-divider>
         </mj-column>
       </mj-section>
 
-      <!-- INCIO FILA 4 -->
-      <mj-section  css-class="mobile-texto">
+<!-- INCIO FILA 4 -->
+      <mj-section  css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column mj-class ="primeraColumnaMobile" >
           <mj-text  mj-class ="textoLetraNegra" line-height="64px" >
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/bf428b0f-5d99-4da8-b5e1-2fe961c5a09c/36x37.png" alt="Otros medios de pago" width="24" height="31" style="vertical-align: middle;" />
@@ -442,8 +508,8 @@
          <mj-column mj-class ="segundaColumnaMobile" >
          </mj-section>
 
-      <!-- INCIO FILA 5 -->
-        <mj-section  css-class="mobile-texto">
+<!-- INCIO FILA 5 -->
+        <mj-section  css-class="mobile-texto" padding="0px 5% 0px 5%">
           <mj-column mj-class ="primeraColumnaMobile" >
             <mj-table >
               <tr >
@@ -468,11 +534,11 @@
          </mj-table>
         </mj-column>
     </mj-section>
-      <!-- INCIO FILA 5 -->
+<!-- INCIO FILA 5 -->
 
-      <!-- -------------------- fin  tabla mobile ------------------- -->
+<!-- -------------------- fin  tabla mobile ------------------- -->
 
-      <!-- --------------------Anuncio ------------------- -->
+<!-- --------------------Anuncio ------------------- -->
       <mj-section padding-top="30px" padding-bottom="10px" >
         <mj-column padding-left="4%" padding-right="4%">
            <mj-text 
@@ -486,11 +552,10 @@
            >
            *Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo.</mj-text>
         </mj-column>
-
       </mj-section>
 
-      <!-- ----------------------------------FOOTER ------------------------------ -->
-      <!-- --------------------Tienes alguna duda? ---------------------- -->
+<!-- ----------------------------------FOOTER ------------------------------ -->
+<!-- --------------------Tienes alguna duda? ---------------------- -->
       <mj-section >
         <mj-column background-color="#F5F8FF">
           <mj-text 
@@ -511,11 +576,11 @@
 
 <!-- border="solid 1px #000000" -->
 
-      <!-- --------------------  Inicio Contacto vista desktop ------------------- -->
+<!-- --------------------  Inicio Contacto vista desktop ------------------- -->
 
       <mj-section background-color="#F5F8FF" css-class="desktop-texto" padding-bottom="10px">
       
-        <!-- Primera columna centrada -->
+<!-- Primera columna centrada -->
       <mj-column width="240px"  >
         <mj-table >
           <tr >
@@ -539,7 +604,7 @@
         </mj-table>
       </mj-column>
         
-        <!-- Segunda columna centrada -->
+<!-- Segunda columna centrada -->
        <mj-column  width="205px"  >
           <mj-table >
             <tr >
@@ -558,6 +623,7 @@
           </mj-table>
         </mj-column>
         
+<!-- Tercera columna centrada -->
          <mj-column  width="240px" >
           <mj-table  >
             <tr>
@@ -575,20 +641,11 @@
           </mj-table>
         </mj-column>
         
-        <!-- Tercera columna centrada -->
-        <!-- <mj-column  width="230px" >
-          <mj-text align="center" mj-class = "textoLetraInfo">
-            <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/5435547d-42d1-44f2-8e8d-ab36ec6997f9/140x141.png" alt="Descripción de la imagen" width="40" height="31" style="vertical-align: middle;" />
-            info@sistecredito.com
-          </mj-text>
-        </mj-column> -->
-
-
       </mj-section>
 
-      <!-- --------------------  Fin Contacto vista desktop ------------------- -->
+<!-- --------------------  Fin Contacto vista desktop ------------------- -->
 
-            <!-- --------------------Inicio Contacto vista mobile ------------------- -->
+<!-- --------------------Inicio Contacto vista mobile ------------------- -->
 
 
       <mj-section background-color="#F5F8FF" css-class="mobile-texto" >
@@ -646,18 +703,18 @@
           </mj-table>
         </mj-column>
       </mj-section>
-      <!-- --------------------fin Contacto vista mobile ------------------- -->
+<!-- --------------------fin Contacto vista mobile ------------------- -->
 
 
-      <!-- --------------------Divider ----------------------- -->
+<!-- --------------------Divider ----------------------- -->
       <mj-section >
-        <mj-column width="670px">
+        <mj-column width="89.3%">
           <mj-divider   mj-class ="dividerPie">
           </mj-divider>
         </mj-column>
       </mj-section>
 
-      <!-- --------------------Redes ----------------------- -->
+<!-- --------------------Redes ----------------------- -->
       <mj-section background-color="#F5F8FF" padding="10px 0px 0px 0px">
         <mj-column width="52%">
           <mj-table>
@@ -688,8 +745,8 @@
         </mj-column>
       </mj-section>
 
-      <!-- --------------------Web y app ------------------- -->
-      <!-- <mj-wrapper padding="0% 20% "> -->
+<!-- --------------------Web y app ------------------- -->
+<!-- <mj-wrapper padding="0% 20% "> -->
         <mj-section background-color="#F5F8FF"  >
           <mj-column  width="30%">
             <mj-text align="center" line-height="20px" font-size="13px" >
@@ -710,11 +767,11 @@
             </mj-text>
           </mj-column>
         </mj-section>
-       <!-- </mj-wrapper> -->
+<!-- </mj-wrapper> -->
 
     
 
-      <!-- --------------------Terminos y pqrs -------------- -->
+<!-- --------------------Terminos y pqrs -------------- -->
 
       <mj-section background-color="#F5F8FF" padding-bottom="10px">
         <mj-column width="45%" >
