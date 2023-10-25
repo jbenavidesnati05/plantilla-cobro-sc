@@ -16,7 +16,7 @@
         font-size="16px" 
         font-weight="500" 
         line-height="22px" 
-        font-family="RedHatDisplay" 
+        font-family="Ubuntu" 
       ></mj-class>
       
       <mj-class 
@@ -25,7 +25,7 @@
         font-size="100px" 
         font-weight="400" 
         line-height="16px" 
-        font-family="RedHatDisplay"
+        font-family="Ubuntu"
         color="#00369C"
         >
       </mj-class>
@@ -36,10 +36,10 @@
         font-size="16px" 
         font-weight="500" 
         line-height="22px" 
-        font-family="RedHatDisplay" 
+        font-family="Ubuntu" 
         >
       </mj-class>
-      <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="RedHatDisplay" color="#00369C"></mj-class>
+      <mj-class name="textoLetraAzul" align="center" font-size="16px" font-weight="700" line-height="24px" font-family="Ubuntu" color="#00369C"></mj-class>
 
       <mj-class 
         name="textoLetraInfo" 
@@ -47,7 +47,7 @@
         font-size="12px" 
         font-weight="400" 
         line-height="16px" 
-        font-family="RedHatDisplay" 
+        font-family="Ubuntu" 
         color="#00369C"
         >
       </mj-class>
@@ -69,27 +69,27 @@
           border-top-right-radius: 10px;
           background-color: #002468;
           height: 50px;
-          font-family: "RedHatDisplay";
+          font-family: "Ubuntu";
       }
        .numbers {
         color: #00369C;
         font-weight: 700;
         font-size: 12px;
-        font-family: "RedHatDisplay";
+        font-family: "Ubuntu";
         line-height: 0px
       }
        .textoContactoAzul {
         color: #00369C;
         font-weight: 400;
         font-size: 12px;
-        font-family: "RedHatDisplay";
+        font-family: "Ubuntu";
         line-height: 0px
       }
        .textoTablaAzul {
         color: #00369C;
         font-weight: 700;
         font-size: 16px;
-        font-family: "RedHatDisplay";
+        font-family: "Ubuntu";
         line-height: 22px;
         
       }
@@ -98,7 +98,7 @@
         color: #2C2A29;
         font-weight: 400;
         font-size: 12px;
-        font-family: "RedHatDisplay";
+        font-family: "Ubuntu";
         line-height: 0px
       }
 
@@ -182,7 +182,7 @@
               font-weight="700" 
               line-height="30px" 
               align="center" 
-              font-family="RedHatDisplay"
+              font-family="Ubuntu"
             >
               Tenemos un recordatorio para ti
             </mj-text>
@@ -199,7 +199,7 @@
               font-weight="700" 
               line-height="24px" 
               align="center" 
-              font-family="RedHatDisplay"
+              font-family="Ubuntu"
             >
               Tenemos un recordatorio para ti
             </mj-text>
@@ -218,11 +218,11 @@
           font-weight="400" 
           align="center"
           line-height= "22px"
-          font-family="RedHatDisplay"
+          font-family="Ubuntu"
           >
           Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong><span style="color: #CF3339;">saldo en mora</span></strong> de <strong>{{diasmora}}</strong> dias</mj-text>
 
-          <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="30px" font-family="RedHatDisplay">Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
+          <mj-text font-size="16px" color="#575756" font-weight="400" align="center" padding-bottom="30px" font-family="Ubuntu">Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
         </mj-column>
       </mj-section>
 
@@ -233,7 +233,7 @@
 <!-- --------------------titulo vista desktop ------------------- -->
     <mj-section css-class="desktop-texto" >
       <mj-column css-class="tituloComoPagar" width="89.3%"  >
-        <mj-text color="#ffffff" align="left" font-size="20px" line-height= "26px" font-weight= "500" font-family="RedHatDisplay">
+        <mj-text color="#ffffff" align="left" font-size="20px" line-height= "26px" font-weight= "500" font-family="Ubuntu">
           ¿Dónde pagar?
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ¿Cómo pagar?
@@ -251,7 +251,7 @@
         font-size="18px" 
         line-height= "26px" 
         font-weight= "500"
-        font-family="RedHatDisplay"
+        font-family="Ubuntu"
         >
         ¿Dónde y cómo pagar?
         </mj-text>
@@ -333,7 +333,7 @@
                         alt="Boton Bancolombia" 
                         width="28"
                         height="31" 
-                        font-family="RedHatDisplay"
+                        font-family="Ubuntu"
                         style="vertical-align: middle;"
                         />
                           Débito PSE
@@ -386,7 +386,7 @@
                         alt="Boton Bancolombia" 
                         width="28"
                         height="31" 
-                        font-family="RedHatDisplay"
+                        font-family="Ubuntu"
                         style="vertical-align: middle;"
                         />
                           Débito PSE
@@ -495,7 +495,7 @@
             <mj-text>
               <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
               Botón Bancolombia
-              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="RedHatDisplay"style="vertical-align: middle;" />
+              <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="Ubuntu"style="vertical-align: middle;" />
               Débito PSE
             </mj-text>
             </mj-column>
@@ -525,7 +525,7 @@
               <mj-text>
                 <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
               Botón Bancolombia
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="RedHatDisplay"style="vertical-align: middle;" />
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="Ubuntu"style="vertical-align: middle;" />
               Débito PSE
               </mj-text>
             </mj-column>
@@ -591,7 +591,7 @@
             line-height= "19px"
             align="center" 
             padding-bottom="30px"
-            font-family= "RedHatDisplay"
+            font-family= "Ubuntu"
            >
            *Si ya te encuentras al día con tu obligación por favor haz caso omiso a este correo.</mj-text>
         </mj-column>
@@ -607,7 +607,7 @@
           font-weight="700" 
           line-height="20px" 
           align="center" 
-          font-family="RedHatDisplay"
+          font-family="Ubuntu"
           padding= "20px 0px 0px 0px"
           >
           ¿Tienes alguna duda?
@@ -793,7 +793,7 @@
         <mj-section background-color="#F5F8FF"  >
           <mj-column  width="30%">
             <mj-text align="center" line-height="20px" font-size="13px" >
-            <a href="https://www.sistecredito.com/index.html" style="text-decoration: none; color: #00369C; font-weight: 500; font-family:RedHatDisplay; line-heigth: 50px">
+            <a href="https://www.sistecredito.com/index.html" style="text-decoration: none; color: #00369C; font-weight: 500; font-family:Ubuntu; line-heigth: 50px">
               www.sistecredito.com
             </a>
           </mj-text>
@@ -801,7 +801,7 @@
           </mj-column>
           <mj-column  width="40%">
             <mj-text mj-class ="textoLetraNegra"  >
-              <a href="https://www.instagram.com/sistecredito/?hl=es" style="text-decoration: none; color: #000000;font-weight: 500;font-family:RedHatDisplay;font-size:13px;   ">
+              <a href="https://www.instagram.com/sistecredito/?hl=es" style="text-decoration: none; color: #000000;font-weight: 500;font-family:Ubuntu;font-size:13px;   ">
               <mj-text  >
                 Descarga nuestra App
               </mj-text>
@@ -822,34 +822,34 @@
             <tr style="text-align:"center"; padding:"0px";">
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:RedHatDisplay; line-heigth: 50px" href="https://www.facebook.com/sistecredito" >
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Ubuntu; line-heigth: 50px" href="https://www.facebook.com/sistecredito" >
                  PQRS
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:RedHatDisplay; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Ubuntu; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
                  |
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                  <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:RedHatDisplay; line-heigth: 50px" href="https://www.instagram.com/sistecredito/?hl=es">
+                  <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Ubuntu; line-heigth: 50px" href="https://www.instagram.com/sistecredito/?hl=es">
                     Términos legales
                   </a>
                 </mj-text>
               </th><th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:RedHatDisplay; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Ubuntu; line-heigth: 50px" href="https://www.facebook.com/sistecredito">
                  |
                 </a>
                 </mj-text>
               </th>
               <th align="center" style="padding: 0 0 px; ; color: #ffffff;">
                 <mj-text>
-                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:RedHatDisplay; line-heigth: 50px" href="https://www.tiktok.com/discover/sistecredito?lang=es">
+                <a style="text-decoration: none; color: #00369C; font-weight: 400; font-family:Ubuntu; line-heigth: 50px" href="https://www.tiktok.com/discover/sistecredito?lang=es">
                  Anular suscripción
                 </a>
                 </mj-text>
