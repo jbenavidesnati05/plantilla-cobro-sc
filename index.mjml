@@ -88,7 +88,7 @@
        .textoTablaAzul {
         color: #00369C;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "RedHatDisplay";
         line-height: 22px;
         
@@ -172,7 +172,8 @@
       </mj-section>
 
 <!-- --------------------Recordatorio ------------------- -->
-        <mj-section>
+<!-- --------------------tenemos desktop ------------------- -->
+        <mj-section css-class="desktop-texto">
           <mj-column >
             <mj-text 
               padding-top="30px"
@@ -180,6 +181,23 @@
               color="#2C2A29" 
               font-weight="700" 
               line-height="30px" 
+              align="center" 
+              font-family="RedHatDisplay"
+            >
+              Tenemos un recordatorio para ti
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+<!-- --------------------tenemos mobile ------------------- -->
+        <mj-section css-class="mobile-texto">
+          <mj-column >
+            <mj-text 
+              padding-top="30px"
+              font-size="18px" 
+              color="#2C2A29" 
+              font-weight="700" 
+              line-height="24px" 
               align="center" 
               font-family="RedHatDisplay"
             >
