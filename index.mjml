@@ -532,8 +532,11 @@
       </mj-section>
 
 
-<!-- INCIO FILA 3 -->
+<!-- INCIO FILA 3 MOBILE AJUSTE PSE -->
+
+
       <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
+
        <mj-column mj-class ="primeraColumna" >
           <mj-text  mj-class ="textoLetraNegra" >
             <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7a5e720a-7317-4018-a6c2-486862fd5a3d/72x73.png"  alt="Pago en el almacen" width="26" height="31" style="vertical-align: middle;" />
@@ -541,37 +544,42 @@
           </mj-text>
         </mj-column>
 
-        <mj-column mj-class ="segundaColumna" >
-          <mj-text mj-class ="textoLetraNegra" line-height="57px"  >
-            <mj-column >
-              <mj-text>
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
-              Botón Bancolombia
-                <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="28" height="31" font-family="RedHatDisplay"style="vertical-align: middle;" />
-              Débito PSE
-              </mj-text>
-            </mj-column>
+        <mj-column mj-class ="segundaColumnaMobile" padding-left="0%">
+           <mj-table >
+              <tr >
+
+                <td align= "right" width="10%">
+                  <mj-text >
+                     <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/82bc05c4-1214-4bb0-bd03-50e803f0dd04/48x48.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
+                  </mj-text>
+                </td>
+
+                <td  align= "center" width="40%">
+                  <mj-text >
+                  Botón Bancolombia
+                  </mj-text>
+                </td>
+                
+
+                <td align= "right  " width="10%">
+                  <mj-text >
+                     <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/e08a85bf-c611-44a6-9a0c-3489114b4463/72x72.png" alt="Boton Bancolombia" width="24" height="31" style="vertical-align: middle;" />
+                  </mj-text>
+                </td>
+
+                <td  align= "center" width="25%">
+                  <mj-text >
+                 Débito PSE
+                   </mj-text>
+                </td>
+
+            </tr>   
+         </mj-table>
         </mj-column>
       </mj-section>
-<!-- FIN FILA 3 -->
 
-<!-- INCIO FILA 3 -->
- <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
-      <mj-column mj-class="primeraColumnaMobile" width="100px" padding="10px">
-        <mj-text mj-class="textoLetraNegra">
-          <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7a5e720a-7317-4018-a6c2-486862fd5a3d/72x73.png" alt="Pago en el almacen" width="26" height="31" style="vertical-align: middle;" />
-          <span class="textoTablaAzul">&nbsp;Sitio web Sistecrédito </span>
-        </mj-text>
-      </mj-column>
+<!-- FIN FILA 3 FILA 3 MOBILE AJUSTE PSE-->
 
-      <mj-column mj-class="primeraColumnaMobile" width="100px" padding="10px">
-        <mj-text mj-class="textoLetraNegra">
-          <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7a5e720a-7317-4018-a6c2-486862fd5a3d/72x73.png" alt="Pago en el almacen" width="26" height="31" style="vertical-align: middle;" />
-          <span class="textoTablaAzul">&nbsp;Sitio web Sistecrédito</span>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-<!-- FIN FILA 3 -->
 
       <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column width="44%">
