@@ -417,19 +417,21 @@
         </mj-column>
       </mj-section>
 
-      <mj-section  css-class="desktop-texto">
-        <mj-column width="89.3%">
-          <mj-divider   mj-class ="divider">
+<!-- INICIO DIVIDER PARA TABLA -->
+      <mj-section  css-class="desktop-texto" >
+        <mj-column background-color="#F5F8FF" width="670px">
+          <mj-divider   mj-class ="divider"  width="92%" >
           </mj-divider>
         </mj-column>
       </mj-section>
+<!-- INICIO DIVIDER PARA TABLA -->
 
 <!-- FIN FILA 3  -->
 
 <!-- INICIO FILA 4 TABLA COMO TABLA -->
 
       <mj-section css-class="desktop-texto"  >
-        <mj-column width="89.3%" background-color="#F3F3F3">
+        <mj-column width="89.3%" background-color="#F3F3F3" border-radius = " 0px 0px 15px 15px" >
           <mj-table mj-class ="textoLetraNegraDesktop"  >
                   <tr>
                     <td >
@@ -553,6 +555,24 @@
       </mj-section>
 <!-- FIN FILA 3 -->
 
+<!-- INCIO FILA 3 -->
+ <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
+      <mj-column mj-class="primeraColumnaMobile" width="100px" padding="10px">
+        <mj-text mj-class="textoLetraNegra">
+          <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7a5e720a-7317-4018-a6c2-486862fd5a3d/72x73.png" alt="Pago en el almacen" width="26" height="31" style="vertical-align: middle;" />
+          <span class="textoTablaAzul">&nbsp;Sitio web Sistecrédito </span>
+        </mj-text>
+      </mj-column>
+
+      <mj-column mj-class="primeraColumnaMobile" width="100px" padding="10px">
+        <mj-text mj-class="textoLetraNegra">
+          <img src="http://cdn.mcauto-images-production.sendgrid.net/ec5a9a81cb919a10/7a5e720a-7317-4018-a6c2-486862fd5a3d/72x73.png" alt="Pago en el almacen" width="26" height="31" style="vertical-align: middle;" />
+          <span class="textoTablaAzul">&nbsp;Sitio web Sistecrédito</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<!-- FIN FILA 3 -->
+
       <mj-section css-class="mobile-texto" padding="0px 5% 0px 5%">
         <mj-column width="44%">
           <mj-divider   mj-class ="divider">
@@ -572,9 +592,9 @@
          </mj-section>
 
 <!-- INCIO FILA 5 -->
-        <mj-section  css-class="mobile-texto" padding="0px 5% 0px 5%">
-          <mj-column mj-class ="primeraColumnaMobile" >
-            <mj-table >
+        <mj-section  css-class="mobile-texto" padding="0px 5% 0px 5%" >
+          <mj-column mj-class ="primeraColumnaMobile"  >
+            <mj-table  >
               <tr >
                 <td align= "center" width="50%">
                   <mj-text >
@@ -762,8 +782,8 @@
 <!-- --------------------fin Contacto vista mobile ------------------- -->
 
 
-<!-- --------------------Divider ----------------------- -->
-      <mj-section >
+<!-- --------------------Divider ultimo----------------------- -->
+      <mj-section background-color="#F5F8FF">
         <mj-column width="89.3%">
           <mj-divider   mj-class ="dividerPie">
           </mj-divider>
